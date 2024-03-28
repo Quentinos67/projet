@@ -1,0 +1,2991 @@
+[
+    {
+        "id": "a3eb30eb28df6688",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "a430781bafed1c80",
+        "type": "mqtt-broker",
+        "name": "SIEMENS S7-1500",
+        "broker": "10.11.24.250",
+        "port": "1883",
+        "clientid": "NodeRed_C1",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "ed546e2fc0cebfe9",
+        "type": "ui_tab",
+        "name": "Visualisation Platine S7-1500",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "c1ff778839f486e5",
+        "type": "ui_group",
+        "name": "Visualisation Platine S7-1500",
+        "tab": "ed546e2fc0cebfe9",
+        "order": 1,
+        "disp": true,
+        "width": "20",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "740585ec9d5b972e",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "24a2b27c07d44702",
+        "type": "ui_spacer",
+        "z": "a3eb30eb28df6688",
+        "name": "spacer",
+        "group": "c1ff778839f486e5",
+        "order": 2,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "87d9bc094b51f263",
+        "type": "ui_spacer",
+        "z": "a3eb30eb28df6688",
+        "name": "spacer",
+        "group": "c1ff778839f486e5",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "2efb085a8bb9c3b4",
+        "type": "ui_spacer",
+        "z": "a3eb30eb28df6688",
+        "name": "spacer",
+        "group": "c1ff778839f486e5",
+        "order": 6,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "d64a2f67c53f5253",
+        "type": "ui_spacer",
+        "z": "a3eb30eb28df6688",
+        "name": "spacer",
+        "group": "c1ff778839f486e5",
+        "order": 7,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "dfd3b88a6e752e2c",
+        "type": "ui_spacer",
+        "z": "a3eb30eb28df6688",
+        "name": "spacer",
+        "group": "c1ff778839f486e5",
+        "order": 9,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "a0938d2db113b4e4",
+        "type": "ui_spacer",
+        "z": "a3eb30eb28df6688",
+        "name": "spacer",
+        "group": "c1ff778839f486e5",
+        "order": 12,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "f5a662091e70e383",
+        "type": "ui_spacer",
+        "z": "a3eb30eb28df6688",
+        "name": "spacer",
+        "group": "c1ff778839f486e5",
+        "order": 14,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "bb0888476ca994f9",
+        "type": "ui_spacer",
+        "z": "a3eb30eb28df6688",
+        "name": "spacer",
+        "group": "c1ff778839f486e5",
+        "order": 17,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "b698a46721a15580",
+        "type": "ui_spacer",
+        "z": "a3eb30eb28df6688",
+        "name": "spacer",
+        "group": "c1ff778839f486e5",
+        "order": 19,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "6749edbbe3fcb4cb",
+        "type": "ui_spacer",
+        "z": "a3eb30eb28df6688",
+        "name": "spacer",
+        "group": "c1ff778839f486e5",
+        "order": 21,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "98fe1a4b415aea9c",
+        "type": "ui_spacer",
+        "z": "a3eb30eb28df6688",
+        "name": "spacer",
+        "group": "c1ff778839f486e5",
+        "order": 23,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "e9052c3ffef79c3a",
+        "type": "ui_spacer",
+        "z": "a3eb30eb28df6688",
+        "name": "spacer",
+        "group": "c1ff778839f486e5",
+        "order": 25,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "8b3002259ea8dfcc",
+        "type": "ui_spacer",
+        "z": "a3eb30eb28df6688",
+        "name": "spacer",
+        "group": "c1ff778839f486e5",
+        "order": 29,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "79eb9e2ef8df39fd",
+        "type": "ui_spacer",
+        "z": "a3eb30eb28df6688",
+        "name": "spacer",
+        "group": "c1ff778839f486e5",
+        "order": 31,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "8d8637ec1d57af2e",
+        "type": "ui_spacer",
+        "z": "a3eb30eb28df6688",
+        "name": "spacer",
+        "group": "c1ff778839f486e5",
+        "order": 33,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "0cc6bd5b80032325",
+        "type": "ui_spacer",
+        "z": "a3eb30eb28df6688",
+        "name": "spacer",
+        "group": "c1ff778839f486e5",
+        "order": 34,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "8e1645e6395a95a0",
+        "type": "ui_spacer",
+        "z": "a3eb30eb28df6688",
+        "name": "spacer",
+        "group": "c1ff778839f486e5",
+        "order": 36,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "259f8e9b57ff281b",
+        "type": "ui_spacer",
+        "z": "a3eb30eb28df6688",
+        "name": "spacer",
+        "group": "c1ff778839f486e5",
+        "order": 38,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "0645ac8ccdf65bae",
+        "type": "ui_spacer",
+        "z": "a3eb30eb28df6688",
+        "name": "spacer",
+        "group": "c1ff778839f486e5",
+        "order": 40,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "9cb5a3d7606239e8",
+        "type": "ui_spacer",
+        "z": "a3eb30eb28df6688",
+        "name": "spacer",
+        "group": "c1ff778839f486e5",
+        "order": 41,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "bb9315736acaee88",
+        "type": "ui_spacer",
+        "z": "a3eb30eb28df6688",
+        "name": "spacer",
+        "group": "c1ff778839f486e5",
+        "order": 43,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "76c4595f1fbd2d28",
+        "type": "ui_spacer",
+        "z": "a3eb30eb28df6688",
+        "name": "spacer",
+        "group": "c1ff778839f486e5",
+        "order": 45,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "f48b91f55dc0e747",
+        "type": "mqtt in",
+        "z": "a3eb30eb28df6688",
+        "name": "",
+        "topic": "variable/%IW4",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "a430781bafed1c80",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 250,
+        "y": 2140,
+        "wires": [
+            [
+                "a6e38c91105d91c2",
+                "b59940a499150822"
+            ]
+        ]
+    },
+    {
+        "id": "b59940a499150822",
+        "type": "change",
+        "z": "a3eb30eb28df6688",
+        "name": "String to number ",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$number(payload)",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 830,
+        "y": 2220,
+        "wires": [
+            [
+                "4382e90caaa7d158",
+                "2720e87529c8b333"
+            ]
+        ]
+    },
+    {
+        "id": "4382e90caaa7d158",
+        "type": "ui_gauge",
+        "z": "a3eb30eb28df6688",
+        "name": "",
+        "group": "c1ff778839f486e5",
+        "order": 1,
+        "width": 6,
+        "height": 4,
+        "gtype": "gage",
+        "title": "Niveau %IW4 G",
+        "label": "°C",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "33",
+        "seg2": "66",
+        "diff": false,
+        "className": "",
+        "x": 1080,
+        "y": 2300,
+        "wires": []
+    },
+    {
+        "id": "2720e87529c8b333",
+        "type": "debug",
+        "z": "a3eb30eb28df6688",
+        "name": "Potar G",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1060,
+        "y": 2220,
+        "wires": []
+    },
+    {
+        "id": "a2cd6de9bec56f39",
+        "type": "mqtt in",
+        "z": "a3eb30eb28df6688",
+        "name": "",
+        "topic": "variable/%IW6",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "a430781bafed1c80",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 250,
+        "y": 2400,
+        "wires": [
+            [
+                "acd103270b876e34",
+                "5ae92595f1ee714b"
+            ]
+        ]
+    },
+    {
+        "id": "acd103270b876e34",
+        "type": "change",
+        "z": "a3eb30eb28df6688",
+        "name": "String to number ",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$number(payload)",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 830,
+        "y": 2460,
+        "wires": [
+            [
+                "a3070f3f4feccd4d",
+                "68b38c3bcdf3ef76"
+            ]
+        ]
+    },
+    {
+        "id": "a3070f3f4feccd4d",
+        "type": "ui_gauge",
+        "z": "a3eb30eb28df6688",
+        "name": "",
+        "group": "c1ff778839f486e5",
+        "order": 22,
+        "width": 6,
+        "height": 4,
+        "gtype": "gage",
+        "title": "Niveau %IW6 D",
+        "label": "°C",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "33",
+        "seg2": "66",
+        "diff": false,
+        "className": "",
+        "x": 1060,
+        "y": 2540,
+        "wires": []
+    },
+    {
+        "id": "68b38c3bcdf3ef76",
+        "type": "debug",
+        "z": "a3eb30eb28df6688",
+        "name": "Potar D",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1040,
+        "y": 2460,
+        "wires": []
+    },
+    {
+        "id": "a6e38c91105d91c2",
+        "type": "debug",
+        "z": "a3eb30eb28df6688",
+        "name": "Potar Avant conversion G ",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 530,
+        "y": 2060,
+        "wires": []
+    },
+    {
+        "id": "5ae92595f1ee714b",
+        "type": "debug",
+        "z": "a3eb30eb28df6688",
+        "name": "Potar Avant conversion D",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 530,
+        "y": 2380,
+        "wires": []
+    },
+    {
+        "id": "ee2a99d206b4b833",
+        "type": "ui_switch",
+        "z": "a3eb30eb28df6688",
+        "name": "",
+        "label": "Led %Q8.0",
+        "tooltip": "",
+        "group": "c1ff778839f486e5",
+        "order": 3,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "1",
+        "onvalueType": "num",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "0",
+        "offvalueType": "num",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 250,
+        "y": 2920,
+        "wires": [
+            [
+                "efb8d9c48bf707f8"
+            ]
+        ]
+    },
+    {
+        "id": "9cb51666d442aa1e",
+        "type": "debug",
+        "z": "a3eb30eb28df6688",
+        "name": "Valeur Led 0",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 870,
+        "y": 2920,
+        "wires": []
+    },
+    {
+        "id": "e211eb9f711e9ac2",
+        "type": "mqtt out",
+        "z": "a3eb30eb28df6688",
+        "name": "",
+        "topic": "variable/%IX",
+        "qos": "2",
+        "retain": "true",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "a430781bafed1c80",
+        "x": 870,
+        "y": 2960,
+        "wires": []
+    },
+    {
+        "id": "83c743a431556dbf",
+        "type": "ui_switch",
+        "z": "a3eb30eb28df6688",
+        "name": "",
+        "label": "Led %Q8.1",
+        "tooltip": "",
+        "group": "c1ff778839f486e5",
+        "order": 8,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "1",
+        "onvalueType": "num",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "0",
+        "offvalueType": "num",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 250,
+        "y": 3040,
+        "wires": [
+            [
+                "ae7344fa45f8e984"
+            ]
+        ]
+    },
+    {
+        "id": "5ecab23074f376cc",
+        "type": "debug",
+        "z": "a3eb30eb28df6688",
+        "name": "Valeur Led 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 870,
+        "y": 3040,
+        "wires": []
+    },
+    {
+        "id": "bd9c892a06247812",
+        "type": "mqtt out",
+        "z": "a3eb30eb28df6688",
+        "name": "",
+        "topic": "variable/%IX",
+        "qos": "2",
+        "retain": "true",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "a430781bafed1c80",
+        "x": 870,
+        "y": 3080,
+        "wires": []
+    },
+    {
+        "id": "5df364e79f3faa38",
+        "type": "ui_switch",
+        "z": "a3eb30eb28df6688",
+        "name": "",
+        "label": "Led %Q8.2",
+        "tooltip": "",
+        "group": "c1ff778839f486e5",
+        "order": 13,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "1",
+        "onvalueType": "num",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "0",
+        "offvalueType": "num",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 250,
+        "y": 3160,
+        "wires": [
+            [
+                "3cfbf45d0c800b09"
+            ]
+        ]
+    },
+    {
+        "id": "2b6dba4e88034957",
+        "type": "debug",
+        "z": "a3eb30eb28df6688",
+        "name": "Valeur Led 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 870,
+        "y": 3160,
+        "wires": []
+    },
+    {
+        "id": "abc41c208c4d6dce",
+        "type": "mqtt out",
+        "z": "a3eb30eb28df6688",
+        "name": "",
+        "topic": "variable/%IX",
+        "qos": "2",
+        "retain": "true",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "a430781bafed1c80",
+        "x": 870,
+        "y": 3200,
+        "wires": []
+    },
+    {
+        "id": "2095a02a4e8f567f",
+        "type": "ui_switch",
+        "z": "a3eb30eb28df6688",
+        "name": "",
+        "label": "Led %Q8.3",
+        "tooltip": "",
+        "group": "c1ff778839f486e5",
+        "order": 18,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "1",
+        "onvalueType": "num",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "0",
+        "offvalueType": "num",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 250,
+        "y": 3280,
+        "wires": [
+            [
+                "f5c3ebb4d10d4c1b"
+            ]
+        ]
+    },
+    {
+        "id": "51b68106fc236df4",
+        "type": "debug",
+        "z": "a3eb30eb28df6688",
+        "name": "Valeur Led 3",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 870,
+        "y": 3280,
+        "wires": []
+    },
+    {
+        "id": "b7af3f529bacece8",
+        "type": "mqtt out",
+        "z": "a3eb30eb28df6688",
+        "name": "",
+        "topic": "variable/%IX",
+        "qos": "2",
+        "retain": "true",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "a430781bafed1c80",
+        "x": 870,
+        "y": 3320,
+        "wires": []
+    },
+    {
+        "id": "3111aae2c43b6289",
+        "type": "ui_switch",
+        "z": "a3eb30eb28df6688",
+        "name": "",
+        "label": "Led %Q8.4",
+        "tooltip": "",
+        "group": "c1ff778839f486e5",
+        "order": 24,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "1",
+        "onvalueType": "num",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "0",
+        "offvalueType": "num",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 250,
+        "y": 3400,
+        "wires": [
+            [
+                "4070f9548f29d4b0"
+            ]
+        ]
+    },
+    {
+        "id": "3ca792fd26e1be84",
+        "type": "debug",
+        "z": "a3eb30eb28df6688",
+        "name": "Valeur Led 4",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 870,
+        "y": 3400,
+        "wires": []
+    },
+    {
+        "id": "41e986797b9c01c9",
+        "type": "mqtt out",
+        "z": "a3eb30eb28df6688",
+        "name": "",
+        "topic": "variable/%IX",
+        "qos": "2",
+        "retain": "true",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "a430781bafed1c80",
+        "x": 870,
+        "y": 3440,
+        "wires": []
+    },
+    {
+        "id": "67c96807035c2fe0",
+        "type": "ui_switch",
+        "z": "a3eb30eb28df6688",
+        "name": "",
+        "label": "Led %Q8.5",
+        "tooltip": "",
+        "group": "c1ff778839f486e5",
+        "order": 30,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "1",
+        "onvalueType": "num",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "0",
+        "offvalueType": "num",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 250,
+        "y": 3500,
+        "wires": [
+            [
+                "d7d22ad2c1b84bb0"
+            ]
+        ]
+    },
+    {
+        "id": "10b0d38a90a8d712",
+        "type": "debug",
+        "z": "a3eb30eb28df6688",
+        "name": "Valeur Led 5",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 870,
+        "y": 3500,
+        "wires": []
+    },
+    {
+        "id": "bea7b1f558f58478",
+        "type": "mqtt out",
+        "z": "a3eb30eb28df6688",
+        "name": "",
+        "topic": "variable/%IX",
+        "qos": "2",
+        "retain": "true",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "a430781bafed1c80",
+        "x": 870,
+        "y": 3540,
+        "wires": []
+    },
+    {
+        "id": "8c3f5ffdf8671b6c",
+        "type": "ui_switch",
+        "z": "a3eb30eb28df6688",
+        "name": "",
+        "label": "Led %Q8.6",
+        "tooltip": "",
+        "group": "c1ff778839f486e5",
+        "order": 35,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "1",
+        "onvalueType": "num",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "0",
+        "offvalueType": "num",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 250,
+        "y": 3600,
+        "wires": [
+            [
+                "b5be047d11da5538"
+            ]
+        ]
+    },
+    {
+        "id": "267fa9c54d0967f7",
+        "type": "debug",
+        "z": "a3eb30eb28df6688",
+        "name": "Valeur Led 6",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 870,
+        "y": 3600,
+        "wires": []
+    },
+    {
+        "id": "dc3b38650201edc2",
+        "type": "mqtt out",
+        "z": "a3eb30eb28df6688",
+        "name": "",
+        "topic": "variable/%IX",
+        "qos": "2",
+        "retain": "true",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "a430781bafed1c80",
+        "x": 870,
+        "y": 3640,
+        "wires": []
+    },
+    {
+        "id": "b914a7d783721766",
+        "type": "ui_switch",
+        "z": "a3eb30eb28df6688",
+        "name": "",
+        "label": "Led %Q8.7",
+        "tooltip": "",
+        "group": "c1ff778839f486e5",
+        "order": 42,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "1",
+        "onvalueType": "num",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "0",
+        "offvalueType": "num",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 250,
+        "y": 3700,
+        "wires": [
+            [
+                "45994983f5146332"
+            ]
+        ]
+    },
+    {
+        "id": "4c7b1c948a85983a",
+        "type": "debug",
+        "z": "a3eb30eb28df6688",
+        "name": "Valeur Led 7",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 870,
+        "y": 3700,
+        "wires": []
+    },
+    {
+        "id": "8235fadddf7928d1",
+        "type": "mqtt out",
+        "z": "a3eb30eb28df6688",
+        "name": "",
+        "topic": "variable/%IX",
+        "qos": "2",
+        "retain": "true",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "a430781bafed1c80",
+        "x": 870,
+        "y": 3740,
+        "wires": []
+    },
+    {
+        "id": "cc1bc0b305fb12d3",
+        "type": "ui_switch",
+        "z": "a3eb30eb28df6688",
+        "name": "",
+        "label": "Moteur Rotation Horaire ON/OFF",
+        "tooltip": "",
+        "group": "c1ff778839f486e5",
+        "order": 11,
+        "width": 6,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "1",
+        "onvalueType": "num",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "0",
+        "offvalueType": "num",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 220,
+        "y": 3820,
+        "wires": [
+            [
+                "ec200ae92f5d618b"
+            ]
+        ]
+    },
+    {
+        "id": "b541e2c06c8cf289",
+        "type": "debug",
+        "z": "a3eb30eb28df6688",
+        "name": "Valeur Moteur",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 880,
+        "y": 3800,
+        "wires": []
+    },
+    {
+        "id": "00934d7579e3d232",
+        "type": "mqtt out",
+        "z": "a3eb30eb28df6688",
+        "name": "",
+        "topic": "variable/%IX",
+        "qos": "2",
+        "retain": "true",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "a430781bafed1c80",
+        "x": 870,
+        "y": 3840,
+        "wires": []
+    },
+    {
+        "id": "ec200ae92f5d618b",
+        "type": "function",
+        "z": "a3eb30eb28df6688",
+        "name": "Set Buffer 8",
+        "func": "var msgmqtt = global.get('msgmqtt') || {};\nif ((msgmqtt[0] != 48) && (msgmqtt[0] != 49)) // exists \n{\n    var i;\n    msgmqtt = Buffer.alloc(13);\n    for (i = 0; i < 13; i++) {\n        msgmqtt[i] = 48;\n        global.set(\"msgmqtt\", msgmqtt);\n    }\n\n    \n\n}\nif (msg.payload == 1) {\n    msgmqtt[8] = 49;\n}\nelse {\n    msgmqtt[8] = 48;\n}\n\nglobal.set(\"msgmqtt\", msgmqtt);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 450,
+        "y": 3820,
+        "wires": [
+            [
+                "e813980c70d6a63c"
+            ]
+        ]
+    },
+    {
+        "id": "d518bf0484169879",
+        "type": "ui_switch",
+        "z": "a3eb30eb28df6688",
+        "name": "",
+        "label": "Moteur Rotation Antihoraire ON/OFF",
+        "tooltip": "",
+        "group": "c1ff778839f486e5",
+        "order": 16,
+        "width": 6,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "1",
+        "onvalueType": "num",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "0",
+        "offvalueType": "num",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 230,
+        "y": 3920,
+        "wires": [
+            [
+                "6eec558ad6b9fe85"
+            ]
+        ]
+    },
+    {
+        "id": "515db3f009feebfc",
+        "type": "debug",
+        "z": "a3eb30eb28df6688",
+        "name": "Valeur Moteur",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 880,
+        "y": 3900,
+        "wires": []
+    },
+    {
+        "id": "4e1b86b4989db696",
+        "type": "mqtt out",
+        "z": "a3eb30eb28df6688",
+        "name": "",
+        "topic": "variable/%IX",
+        "qos": "2",
+        "retain": "true",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "a430781bafed1c80",
+        "x": 870,
+        "y": 3940,
+        "wires": []
+    },
+    {
+        "id": "6eec558ad6b9fe85",
+        "type": "function",
+        "z": "a3eb30eb28df6688",
+        "name": "Set Buffer 9",
+        "func": "var msgmqtt = global.get('msgmqtt') || {};\nif ((msgmqtt[0] != 48) && (msgmqtt[0] != 49)) // exists \n{\n    var i;\n    msgmqtt = Buffer.alloc(13);\n    for (i = 0; i < 13; i++) {\n        msgmqtt[i] = 48;\n        global.set(\"msgmqtt\", msgmqtt);\n    }\n\n    \n\n}\nif (msg.payload== 1) {\n    msgmqtt[9] = 49;\n}\nelse {\n    msgmqtt[9] = 48;\n}\n\nglobal.set(\"msgmqtt\", msgmqtt);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 470,
+        "y": 3920,
+        "wires": [
+            [
+                "bfbbd9ba98ccc462"
+            ]
+        ]
+    },
+    {
+        "id": "efb8d9c48bf707f8",
+        "type": "function",
+        "z": "a3eb30eb28df6688",
+        "name": "Set Buffer 0",
+        "func": "var msgmqtt = global.get('msgmqtt') || {};\nif ((msgmqtt[0] != 48) && (msgmqtt[0] != 49)) // exists \n{\n    var i;\n    msgmqtt = Buffer.alloc(13);\n    for (i = 0; i < 13; i++) {\n        msgmqtt[i] = 48;\n        global.set(\"msgmqtt\", msgmqtt);\n    }\n\n    \n\n}\nif (msg.payload == 1) {\n    msgmqtt[0] = 49;\n}\nelse {\n    msgmqtt[0] = 48;\n}\n\nglobal.set(\"msgmqtt\", msgmqtt);\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 2920,
+        "wires": [
+            [
+                "f9bd9e0f34ed5fea"
+            ]
+        ]
+    },
+    {
+        "id": "ae7344fa45f8e984",
+        "type": "function",
+        "z": "a3eb30eb28df6688",
+        "name": "Set Buffer 1",
+        "func": "var msgmqtt = global.get('msgmqtt') || {};\nif ((msgmqtt[0] != 48) && (msgmqtt[0] != 49)) // exists \n{\n    var i;\n    msgmqtt = Buffer.alloc(13);\n    for (i = 0; i < 13; i++) {\n        msgmqtt[i] = 48;\n        global.set(\"msgmqtt\", msgmqtt);\n    }\n\n    \n\n}\nif (msg.payload == 1) {\n    msgmqtt[1] = 49;\n}\nelse {\n    msgmqtt[1] = 48;\n}\n\nglobal.set(\"msgmqtt\", msgmqtt);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 3040,
+        "wires": [
+            [
+                "df932534d43051b2"
+            ]
+        ]
+    },
+    {
+        "id": "3cfbf45d0c800b09",
+        "type": "function",
+        "z": "a3eb30eb28df6688",
+        "name": "Set Buffer 2",
+        "func": "var msgmqtt = global.get('msgmqtt') || {};\nif ((msgmqtt[0] != 48) && (msgmqtt[0] != 49)) // exists \n{\n    var i;\n    msgmqtt = Buffer.alloc(13);\n    for (i = 0; i < 13; i++) {\n        msgmqtt[i] = 48;\n        global.set(\"msgmqtt\", msgmqtt);\n    }\n\n    \n\n}\nif (msg.payload == 1) {\n    msgmqtt[2] = 49;\n}\nelse {\n    msgmqtt[2] = 48;\n}\n\nglobal.set(\"msgmqtt\", msgmqtt);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 3160,
+        "wires": [
+            [
+                "85c4185f58535208"
+            ]
+        ]
+    },
+    {
+        "id": "f5c3ebb4d10d4c1b",
+        "type": "function",
+        "z": "a3eb30eb28df6688",
+        "name": "Set Buffer 3",
+        "func": "var msgmqtt = global.get('msgmqtt') || {};\nif ((msgmqtt[0] != 48) && (msgmqtt[0] != 49)) // exists \n{\n    var i;\n    msgmqtt = Buffer.alloc(13);\n    for (i = 0; i < 13; i++) {\n        msgmqtt[i] = 48;\n        global.set(\"msgmqtt\", msgmqtt);\n    }\n\n    \n\n}\nif (msg.payload == 1) {\n    msgmqtt[3] = 49;\n}\nelse {\n    msgmqtt[3] = 48;\n}\n\nglobal.set(\"msgmqtt\", msgmqtt);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 3280,
+        "wires": [
+            [
+                "d4e62bf97a847cef"
+            ]
+        ]
+    },
+    {
+        "id": "4070f9548f29d4b0",
+        "type": "function",
+        "z": "a3eb30eb28df6688",
+        "name": "Set Buffer 4",
+        "func": "var msgmqtt = global.get('msgmqtt') || {};\nif ((msgmqtt[0] != 48) && (msgmqtt[0] != 49)) // exists \n{\n    var i;\n    msgmqtt = Buffer.alloc(13);\n    for (i = 0; i < 13; i++) {\n        msgmqtt[i] = 48;\n        global.set(\"msgmqtt\", msgmqtt);\n    }\n\n    \n\n}\nif (msg.payload == 1) {\n    msgmqtt[4] = 49;\n}\nelse {\n    msgmqtt[4] = 48;\n}\n\nglobal.set(\"msgmqtt\", msgmqtt);\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 3400,
+        "wires": [
+            [
+                "1fc5bfd4bf6434e5"
+            ]
+        ]
+    },
+    {
+        "id": "d7d22ad2c1b84bb0",
+        "type": "function",
+        "z": "a3eb30eb28df6688",
+        "name": "Set Buffer 5",
+        "func": "var msgmqtt = global.get('msgmqtt') || {};\nif ((msgmqtt[0] != 48) && (msgmqtt[0] != 49)) // exists  \n{\n    var i;\n    msgmqtt = Buffer.alloc(13);\n    for (i = 0; i < 13; i++) {\n        msgmqtt[i] = 48;\n        global.set(\"msgmqtt\", msgmqtt);\n    }\n\n    \n\n}\nif (msg.payload == 1) {\n    msgmqtt[5] = 49;\n}\nelse {\n    msgmqtt[5] = 48;\n}\n\nglobal.set(\"msgmqtt\", msgmqtt);\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 3500,
+        "wires": [
+            [
+                "f12407dfdeb0d960"
+            ]
+        ]
+    },
+    {
+        "id": "b5be047d11da5538",
+        "type": "function",
+        "z": "a3eb30eb28df6688",
+        "name": "Set Buffer 6",
+        "func": "var msgmqtt = global.get('msgmqtt') || {};\nif ((msgmqtt[0] != 48) && (msgmqtt[0] != 49)) // exists  \n{\n    var i;\n    msgmqtt = Buffer.alloc(13);\n    for (i = 0; i < 13; i++) {\n        msgmqtt[i] = 48;\n        global.set(\"msgmqtt\", msgmqtt);\n    }\n\n    \n\n}\nif (msg.payload == 1) {\n    msgmqtt[6] = 49;\n}\nelse {\n    msgmqtt[6] = 48;\n}\n\nglobal.set(\"msgmqtt\", msgmqtt);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 3600,
+        "wires": [
+            [
+                "4651806455b54df6"
+            ]
+        ]
+    },
+    {
+        "id": "45994983f5146332",
+        "type": "function",
+        "z": "a3eb30eb28df6688",
+        "name": "Set Buffer 7",
+        "func": "var msgmqtt = global.get('msgmqtt') || {};\nif ((msgmqtt[0] != 48) && (msgmqtt[0] != 49)) // exists \n{\n    var i;\n    msgmqtt = Buffer.alloc(13);\n    for (i = 0; i < 13; i++) {\n        msgmqtt[i] = 48;\n        global.set(\"msgmqtt\", msgmqtt);\n    }\n\n    \n\n}\nif (msg.payload == 1) {\n    msgmqtt[7] = 49;\n}\nelse {\n    msgmqtt[7] = 48;\n}\n\nglobal.set(\"msgmqtt\", msgmqtt);\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 3700,
+        "wires": [
+            [
+                "e6fbf821bab58f8f"
+            ]
+        ]
+    },
+    {
+        "id": "c1dc1545ef230e69",
+        "type": "mqtt in",
+        "z": "a3eb30eb28df6688",
+        "name": "",
+        "topic": "variable/%I16.0",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "a430781bafed1c80",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 240,
+        "y": 80,
+        "wires": [
+            [
+                "81899281d51fab3d"
+            ]
+        ]
+    },
+    {
+        "id": "81899281d51fab3d",
+        "type": "change",
+        "z": "a3eb30eb28df6688",
+        "name": "String to number ",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$number(payload)",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 530,
+        "y": 80,
+        "wires": [
+            [
+                "76afbb92d780a2bc",
+                "95e6fa1df66fea45"
+            ]
+        ]
+    },
+    {
+        "id": "76afbb92d780a2bc",
+        "type": "debug",
+        "z": "a3eb30eb28df6688",
+        "name": "%I16.0",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 770,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "95e6fa1df66fea45",
+        "type": "ui_switch",
+        "z": "a3eb30eb28df6688",
+        "name": "",
+        "label": "%16.0",
+        "tooltip": "%16.0",
+        "group": "c1ff778839f486e5",
+        "order": 5,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "decouple": "true",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "1",
+        "onvalueType": "num",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "0",
+        "offvalueType": "num",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 770,
+        "y": 120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "efea17ab654297d2",
+        "type": "mqtt in",
+        "z": "a3eb30eb28df6688",
+        "name": "",
+        "topic": "variable/%I16.1",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "a430781bafed1c80",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 240,
+        "y": 160,
+        "wires": [
+            [
+                "8f674f23fcba3c47"
+            ]
+        ]
+    },
+    {
+        "id": "8f674f23fcba3c47",
+        "type": "change",
+        "z": "a3eb30eb28df6688",
+        "name": "String to number ",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$number(payload)",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 530,
+        "y": 160,
+        "wires": [
+            [
+                "1876f2e94a6cad79",
+                "bf41ece1bc0bda43"
+            ]
+        ]
+    },
+    {
+        "id": "1876f2e94a6cad79",
+        "type": "debug",
+        "z": "a3eb30eb28df6688",
+        "name": "%I16.1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 770,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "bf41ece1bc0bda43",
+        "type": "ui_switch",
+        "z": "a3eb30eb28df6688",
+        "name": "",
+        "label": "%I16.1",
+        "tooltip": "%I16.1",
+        "group": "c1ff778839f486e5",
+        "order": 10,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "decouple": "true",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "1",
+        "onvalueType": "num",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "0",
+        "offvalueType": "num",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 770,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "41e6923df9b91742",
+        "type": "mqtt in",
+        "z": "a3eb30eb28df6688",
+        "name": "",
+        "topic": "variable/%I16.2",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "a430781bafed1c80",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 240,
+        "y": 240,
+        "wires": [
+            [
+                "e8f74db046670c7e"
+            ]
+        ]
+    },
+    {
+        "id": "e8f74db046670c7e",
+        "type": "change",
+        "z": "a3eb30eb28df6688",
+        "name": "String to number ",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$number(payload)",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 530,
+        "y": 240,
+        "wires": [
+            [
+                "9df2d69adc644465",
+                "2b6a9c26164030e8"
+            ]
+        ]
+    },
+    {
+        "id": "9df2d69adc644465",
+        "type": "debug",
+        "z": "a3eb30eb28df6688",
+        "name": "%I16.2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 770,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "2b6a9c26164030e8",
+        "type": "ui_switch",
+        "z": "a3eb30eb28df6688",
+        "name": "",
+        "label": "%I16.2",
+        "tooltip": "Int 2",
+        "group": "c1ff778839f486e5",
+        "order": 15,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "decouple": "true",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "1",
+        "onvalueType": "num",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "0",
+        "offvalueType": "num",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 770,
+        "y": 280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "96ca3396b7be5a20",
+        "type": "mqtt in",
+        "z": "a3eb30eb28df6688",
+        "name": "",
+        "topic": "variable/%I16.3",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "a430781bafed1c80",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 240,
+        "y": 320,
+        "wires": [
+            [
+                "e81e64edbf0e48b5"
+            ]
+        ]
+    },
+    {
+        "id": "e81e64edbf0e48b5",
+        "type": "change",
+        "z": "a3eb30eb28df6688",
+        "name": "String to number ",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$number(payload)",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 530,
+        "y": 320,
+        "wires": [
+            [
+                "84a23ff466632edd",
+                "88586dc66bed95c6"
+            ]
+        ]
+    },
+    {
+        "id": "84a23ff466632edd",
+        "type": "debug",
+        "z": "a3eb30eb28df6688",
+        "name": "%I16.3",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 770,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "88586dc66bed95c6",
+        "type": "ui_switch",
+        "z": "a3eb30eb28df6688",
+        "name": "",
+        "label": "%I16.3",
+        "tooltip": "%I16.3",
+        "group": "c1ff778839f486e5",
+        "order": 20,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "decouple": "true",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "1",
+        "onvalueType": "num",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "0",
+        "offvalueType": "num",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 770,
+        "y": 360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e42f58fac389addc",
+        "type": "mqtt in",
+        "z": "a3eb30eb28df6688",
+        "name": "",
+        "topic": "variable/%I16.4",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "a430781bafed1c80",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 240,
+        "y": 400,
+        "wires": [
+            [
+                "fe743083759757e1"
+            ]
+        ]
+    },
+    {
+        "id": "fe743083759757e1",
+        "type": "change",
+        "z": "a3eb30eb28df6688",
+        "name": "String to number ",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$number(payload)",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 530,
+        "y": 400,
+        "wires": [
+            [
+                "bdc64ae527184e33",
+                "5f438b1c6f310e1a"
+            ]
+        ]
+    },
+    {
+        "id": "bdc64ae527184e33",
+        "type": "debug",
+        "z": "a3eb30eb28df6688",
+        "name": "%I16.4",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 770,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "5f438b1c6f310e1a",
+        "type": "ui_switch",
+        "z": "a3eb30eb28df6688",
+        "name": "",
+        "label": "%I16.4",
+        "tooltip": "%I16.4",
+        "group": "c1ff778839f486e5",
+        "order": 26,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "decouple": "true",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "1",
+        "onvalueType": "num",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "0",
+        "offvalueType": "num",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 770,
+        "y": 440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "28be5e1fe60f9514",
+        "type": "mqtt in",
+        "z": "a3eb30eb28df6688",
+        "name": "",
+        "topic": "variable/%I16.5",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "a430781bafed1c80",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 240,
+        "y": 480,
+        "wires": [
+            [
+                "1d8f44f69a4cbd8a"
+            ]
+        ]
+    },
+    {
+        "id": "1d8f44f69a4cbd8a",
+        "type": "change",
+        "z": "a3eb30eb28df6688",
+        "name": "String to number ",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$number(payload)",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 530,
+        "y": 480,
+        "wires": [
+            [
+                "a723f7ef2be1cbf8",
+                "3e435c062e2ce0ec"
+            ]
+        ]
+    },
+    {
+        "id": "a723f7ef2be1cbf8",
+        "type": "debug",
+        "z": "a3eb30eb28df6688",
+        "name": "%I16.5",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 770,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "3e435c062e2ce0ec",
+        "type": "ui_switch",
+        "z": "a3eb30eb28df6688",
+        "name": "",
+        "label": "%I16.5",
+        "tooltip": "%I16.5",
+        "group": "c1ff778839f486e5",
+        "order": 32,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "decouple": "true",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "1",
+        "onvalueType": "num",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "0",
+        "offvalueType": "num",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 770,
+        "y": 520,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6c6d60b3bfc22573",
+        "type": "mqtt in",
+        "z": "a3eb30eb28df6688",
+        "name": "",
+        "topic": "variable/%I16.6",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "a430781bafed1c80",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 240,
+        "y": 560,
+        "wires": [
+            [
+                "44e3e4b4e80f21a5"
+            ]
+        ]
+    },
+    {
+        "id": "44e3e4b4e80f21a5",
+        "type": "change",
+        "z": "a3eb30eb28df6688",
+        "name": "String to number ",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$number(payload)",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 530,
+        "y": 560,
+        "wires": [
+            [
+                "0de15f2b32a51ee9",
+                "62f00344352569e2"
+            ]
+        ]
+    },
+    {
+        "id": "0de15f2b32a51ee9",
+        "type": "debug",
+        "z": "a3eb30eb28df6688",
+        "name": "%I16.6",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 770,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "62f00344352569e2",
+        "type": "ui_switch",
+        "z": "a3eb30eb28df6688",
+        "name": "",
+        "label": "%I16.6",
+        "tooltip": "%I16.6",
+        "group": "c1ff778839f486e5",
+        "order": 37,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "decouple": "true",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "1",
+        "onvalueType": "num",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "0",
+        "offvalueType": "num",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 770,
+        "y": 600,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "746833af8794d742",
+        "type": "mqtt in",
+        "z": "a3eb30eb28df6688",
+        "name": "",
+        "topic": "variable/%I16.7",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "a430781bafed1c80",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 240,
+        "y": 640,
+        "wires": [
+            [
+                "3705eccde1e385cf"
+            ]
+        ]
+    },
+    {
+        "id": "3705eccde1e385cf",
+        "type": "change",
+        "z": "a3eb30eb28df6688",
+        "name": "String to number ",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$number(payload)",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 530,
+        "y": 640,
+        "wires": [
+            [
+                "add5c21bb4702cba",
+                "9dc00c3aa64bb1ec"
+            ]
+        ]
+    },
+    {
+        "id": "add5c21bb4702cba",
+        "type": "debug",
+        "z": "a3eb30eb28df6688",
+        "name": "%I16.7",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 770,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "9dc00c3aa64bb1ec",
+        "type": "ui_switch",
+        "z": "a3eb30eb28df6688",
+        "name": "",
+        "label": "%I16.7",
+        "tooltip": "%I16.7",
+        "group": "c1ff778839f486e5",
+        "order": 44,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "decouple": "true",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "1",
+        "onvalueType": "num",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "0",
+        "offvalueType": "num",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 770,
+        "y": 680,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d3a9c9d7e30ad8d3",
+        "type": "mqtt in",
+        "z": "a3eb30eb28df6688",
+        "name": "",
+        "topic": "variable/%I17.2",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "a430781bafed1c80",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 240,
+        "y": 740,
+        "wires": [
+            [
+                "9c09fdd4d31db246"
+            ]
+        ]
+    },
+    {
+        "id": "9c09fdd4d31db246",
+        "type": "change",
+        "z": "a3eb30eb28df6688",
+        "name": "String to number ",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$number(payload)",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 530,
+        "y": 740,
+        "wires": [
+            [
+                "7b51588013a4a991",
+                "598c4d3cc83d3c09"
+            ]
+        ]
+    },
+    {
+        "id": "7b51588013a4a991",
+        "type": "debug",
+        "z": "a3eb30eb28df6688",
+        "name": "%I17.2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 770,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "598c4d3cc83d3c09",
+        "type": "ui_switch",
+        "z": "a3eb30eb28df6688",
+        "name": "",
+        "label": "%I17.2",
+        "tooltip": "%I17.2",
+        "group": "c1ff778839f486e5",
+        "order": 27,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "decouple": "true",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "1",
+        "onvalueType": "num",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "0",
+        "offvalueType": "num",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 770,
+        "y": 780,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "694d2d3c0ca66303",
+        "type": "mqtt in",
+        "z": "a3eb30eb28df6688",
+        "name": "",
+        "topic": "variable/%I17.1",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "a430781bafed1c80",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 240,
+        "y": 820,
+        "wires": [
+            [
+                "2c8e61ce71743d15"
+            ]
+        ]
+    },
+    {
+        "id": "2c8e61ce71743d15",
+        "type": "change",
+        "z": "a3eb30eb28df6688",
+        "name": "String to number ",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$number(payload)",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 530,
+        "y": 820,
+        "wires": [
+            [
+                "e4cb1772521c1a8d",
+                "74d103a76ac1881e"
+            ]
+        ]
+    },
+    {
+        "id": "e4cb1772521c1a8d",
+        "type": "debug",
+        "z": "a3eb30eb28df6688",
+        "name": "%I17.1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 770,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "74d103a76ac1881e",
+        "type": "ui_switch",
+        "z": "a3eb30eb28df6688",
+        "name": "",
+        "label": "%I17.1",
+        "tooltip": "%I17.1",
+        "group": "c1ff778839f486e5",
+        "order": 39,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "decouple": "true",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "1",
+        "onvalueType": "num",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "0",
+        "offvalueType": "num",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 770,
+        "y": 860,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9ef93b542c6491fc",
+        "type": "mqtt in",
+        "z": "a3eb30eb28df6688",
+        "name": "",
+        "topic": "variable/%I17.0",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "a430781bafed1c80",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 240,
+        "y": 900,
+        "wires": [
+            [
+                "866740c08e95cf7e"
+            ]
+        ]
+    },
+    {
+        "id": "866740c08e95cf7e",
+        "type": "change",
+        "z": "a3eb30eb28df6688",
+        "name": "String to number ",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$number(payload)",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 530,
+        "y": 900,
+        "wires": [
+            [
+                "867be98bce09d124",
+                "e7a3f77c7a5fdb17"
+            ]
+        ]
+    },
+    {
+        "id": "867be98bce09d124",
+        "type": "debug",
+        "z": "a3eb30eb28df6688",
+        "name": "%I17.0",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 770,
+        "y": 900,
+        "wires": []
+    },
+    {
+        "id": "e7a3f77c7a5fdb17",
+        "type": "ui_switch",
+        "z": "a3eb30eb28df6688",
+        "name": "",
+        "label": "%I17.0",
+        "tooltip": "%I17.0",
+        "group": "c1ff778839f486e5",
+        "order": 28,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "decouple": "true",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "1",
+        "onvalueType": "num",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "0",
+        "offvalueType": "num",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 770,
+        "y": 940,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "bfbc1521ae29ebd6",
+        "type": "ui_slider",
+        "z": "a3eb30eb28df6688",
+        "name": "",
+        "label": "Potentiomètre",
+        "tooltip": "",
+        "group": "c1ff778839f486e5",
+        "order": 46,
+        "width": 9,
+        "height": 1,
+        "passthru": true,
+        "outs": "all",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": 0,
+        "max": "100",
+        "step": 1,
+        "className": "",
+        "x": 180,
+        "y": 4060,
+        "wires": [
+            [
+                "487f85eb1cb7a283"
+            ]
+        ]
+    },
+    {
+        "id": "2170235f0377ffe0",
+        "type": "debug",
+        "z": "a3eb30eb28df6688",
+        "name": "Valeur Potentiometre",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1040,
+        "y": 4040,
+        "wires": []
+    },
+    {
+        "id": "ad3e8f5842094c08",
+        "type": "mqtt out",
+        "z": "a3eb30eb28df6688",
+        "name": "",
+        "topic": "variable/%IX",
+        "qos": "2",
+        "retain": "true",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "a430781bafed1c80",
+        "x": 1010,
+        "y": 4100,
+        "wires": []
+    },
+    {
+        "id": "487f85eb1cb7a283",
+        "type": "function",
+        "z": "a3eb30eb28df6688",
+        "name": "Set Buffer 10",
+        "func": "var msgmqtt = global.get('msgmqtt') || {};\nif ((msgmqtt[0] != 48) && (msgmqtt[0] != 49)) // exists \n{\n    var i;\n    msgmqtt = Buffer.alloc(13);\n    for (i = 0; i < 13; i++) {\n        msgmqtt[i] = 48;\n    }\n\n    global.set(\"msgmqtt\", msgmqtt);\n\n}\nmsgmqtt[10] = msg.payload+48;\n \n\nglobal.set(\"msgmqtt\", msgmqtt);\n\n\nreturn msg; ",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 4060,
+        "wires": [
+            [
+                "0d6ce25436eb12c4"
+            ]
+        ]
+    },
+    {
+        "id": "e313fbc4f2a75f9f",
+        "type": "debug",
+        "z": "a3eb30eb28df6688",
+        "name": "Valeur In Potentiometre",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 510,
+        "y": 4280,
+        "wires": []
+    },
+    {
+        "id": "b9a943771630c050",
+        "type": "inject",
+        "z": "a3eb30eb28df6688",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "$globalContext(\"msgmqtt\")\t",
+        "payloadType": "jsonata",
+        "x": 230,
+        "y": 4280,
+        "wires": [
+            [
+                "e313fbc4f2a75f9f"
+            ]
+        ]
+    },
+    {
+        "id": "0d6ce25436eb12c4",
+        "type": "change",
+        "z": "a3eb30eb28df6688",
+        "name": "View buffer msgmqtt",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$globalContext(\"msgmqtt\")",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 680,
+        "y": 4060,
+        "wires": [
+            [
+                "2170235f0377ffe0",
+                "ad3e8f5842094c08"
+            ]
+        ]
+    },
+    {
+        "id": "f9bd9e0f34ed5fea",
+        "type": "change",
+        "z": "a3eb30eb28df6688",
+        "name": "View buffer msgmqtt",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$globalContext(\"msgmqtt\")",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 660,
+        "y": 2920,
+        "wires": [
+            [
+                "9cb51666d442aa1e",
+                "e211eb9f711e9ac2"
+            ]
+        ]
+    },
+    {
+        "id": "df932534d43051b2",
+        "type": "change",
+        "z": "a3eb30eb28df6688",
+        "name": "View buffer msgmqtt",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$globalContext(\"msgmqtt\")",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 660,
+        "y": 3040,
+        "wires": [
+            [
+                "5ecab23074f376cc",
+                "bd9c892a06247812"
+            ]
+        ]
+    },
+    {
+        "id": "85c4185f58535208",
+        "type": "change",
+        "z": "a3eb30eb28df6688",
+        "name": "View buffer msgmqtt",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$globalContext(\"msgmqtt\")",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 660,
+        "y": 3160,
+        "wires": [
+            [
+                "2b6dba4e88034957",
+                "abc41c208c4d6dce"
+            ]
+        ]
+    },
+    {
+        "id": "d4e62bf97a847cef",
+        "type": "change",
+        "z": "a3eb30eb28df6688",
+        "name": "View buffer msgmqtt",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$globalContext(\"msgmqtt\")",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 660,
+        "y": 3280,
+        "wires": [
+            [
+                "51b68106fc236df4",
+                "b7af3f529bacece8"
+            ]
+        ]
+    },
+    {
+        "id": "1fc5bfd4bf6434e5",
+        "type": "change",
+        "z": "a3eb30eb28df6688",
+        "name": "View buffer msgmqtt",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$globalContext(\"msgmqtt\")",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 660,
+        "y": 3400,
+        "wires": [
+            [
+                "3ca792fd26e1be84",
+                "41e986797b9c01c9"
+            ]
+        ]
+    },
+    {
+        "id": "f12407dfdeb0d960",
+        "type": "change",
+        "z": "a3eb30eb28df6688",
+        "name": "View buffer msgmqtt",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$globalContext(\"msgmqtt\")",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 660,
+        "y": 3500,
+        "wires": [
+            [
+                "10b0d38a90a8d712",
+                "bea7b1f558f58478"
+            ]
+        ]
+    },
+    {
+        "id": "4651806455b54df6",
+        "type": "change",
+        "z": "a3eb30eb28df6688",
+        "name": "View buffer msgmqtt",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$globalContext(\"msgmqtt\")",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 660,
+        "y": 3600,
+        "wires": [
+            [
+                "267fa9c54d0967f7",
+                "dc3b38650201edc2"
+            ]
+        ]
+    },
+    {
+        "id": "e6fbf821bab58f8f",
+        "type": "change",
+        "z": "a3eb30eb28df6688",
+        "name": "View buffer msgmqtt",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$globalContext(\"msgmqtt\")",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 660,
+        "y": 3700,
+        "wires": [
+            [
+                "4c7b1c948a85983a",
+                "8235fadddf7928d1"
+            ]
+        ]
+    },
+    {
+        "id": "e813980c70d6a63c",
+        "type": "change",
+        "z": "a3eb30eb28df6688",
+        "name": "View buffer msgmqtt",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$globalContext(\"msgmqtt\")",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 660,
+        "y": 3820,
+        "wires": [
+            [
+                "b541e2c06c8cf289",
+                "00934d7579e3d232"
+            ]
+        ]
+    },
+    {
+        "id": "bfbbd9ba98ccc462",
+        "type": "change",
+        "z": "a3eb30eb28df6688",
+        "name": "View buffer msgmqtt",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$globalContext(\"msgmqtt\")",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 660,
+        "y": 3920,
+        "wires": [
+            [
+                "515db3f009feebfc",
+                "4e1b86b4989db696"
+            ]
+        ]
+    }
+]
