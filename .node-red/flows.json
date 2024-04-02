@@ -8,6 +8,14 @@
         "env": []
     },
     {
+        "id": "b8b9e97420e20a25",
+        "type": "tab",
+        "label": "Flow 2",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "a430781bafed1c80",
         "type": "mqtt-broker",
         "name": "SIEMENS S7-1500",
@@ -152,7 +160,17 @@
         }
     },
     {
-        "id": "24a2b27c07d44702",
+        "id": "8d16cabef944a7a1",
+        "type": "MySQLdatabase",
+        "name": "Donnee",
+        "host": "localhost",
+        "port": "3306",
+        "db": "projet",
+        "tz": "",
+        "charset": "UTF8"
+    },
+    {
+        "id": "f49720107fde8d07",
         "type": "ui_spacer",
         "z": "a3eb30eb28df6688",
         "name": "spacer",
@@ -162,7 +180,7 @@
         "height": 1
     },
     {
-        "id": "87d9bc094b51f263",
+        "id": "725ed6af54f92838",
         "type": "ui_spacer",
         "z": "a3eb30eb28df6688",
         "name": "spacer",
@@ -172,7 +190,7 @@
         "height": 1
     },
     {
-        "id": "2efb085a8bb9c3b4",
+        "id": "30d17829b3e879bb",
         "type": "ui_spacer",
         "z": "a3eb30eb28df6688",
         "name": "spacer",
@@ -182,7 +200,7 @@
         "height": 1
     },
     {
-        "id": "d64a2f67c53f5253",
+        "id": "af9d89d9f54f213e",
         "type": "ui_spacer",
         "z": "a3eb30eb28df6688",
         "name": "spacer",
@@ -192,7 +210,7 @@
         "height": 1
     },
     {
-        "id": "dfd3b88a6e752e2c",
+        "id": "0c9c016fc1dd60d4",
         "type": "ui_spacer",
         "z": "a3eb30eb28df6688",
         "name": "spacer",
@@ -202,7 +220,7 @@
         "height": 1
     },
     {
-        "id": "a0938d2db113b4e4",
+        "id": "561c9976ec665098",
         "type": "ui_spacer",
         "z": "a3eb30eb28df6688",
         "name": "spacer",
@@ -212,7 +230,7 @@
         "height": 1
     },
     {
-        "id": "f5a662091e70e383",
+        "id": "bd3da10aee2fb1b4",
         "type": "ui_spacer",
         "z": "a3eb30eb28df6688",
         "name": "spacer",
@@ -222,7 +240,7 @@
         "height": 1
     },
     {
-        "id": "bb0888476ca994f9",
+        "id": "acb4cfd850449176",
         "type": "ui_spacer",
         "z": "a3eb30eb28df6688",
         "name": "spacer",
@@ -232,7 +250,7 @@
         "height": 1
     },
     {
-        "id": "b698a46721a15580",
+        "id": "d9969f4c9605ed02",
         "type": "ui_spacer",
         "z": "a3eb30eb28df6688",
         "name": "spacer",
@@ -242,7 +260,7 @@
         "height": 1
     },
     {
-        "id": "6749edbbe3fcb4cb",
+        "id": "a82fbe13b273d142",
         "type": "ui_spacer",
         "z": "a3eb30eb28df6688",
         "name": "spacer",
@@ -252,7 +270,7 @@
         "height": 1
     },
     {
-        "id": "98fe1a4b415aea9c",
+        "id": "ac8cf5fe522d4d7d",
         "type": "ui_spacer",
         "z": "a3eb30eb28df6688",
         "name": "spacer",
@@ -262,7 +280,7 @@
         "height": 1
     },
     {
-        "id": "e9052c3ffef79c3a",
+        "id": "4671cdb3d4eddf31",
         "type": "ui_spacer",
         "z": "a3eb30eb28df6688",
         "name": "spacer",
@@ -272,7 +290,7 @@
         "height": 1
     },
     {
-        "id": "8b3002259ea8dfcc",
+        "id": "f57dd871028c0383",
         "type": "ui_spacer",
         "z": "a3eb30eb28df6688",
         "name": "spacer",
@@ -282,7 +300,7 @@
         "height": 1
     },
     {
-        "id": "79eb9e2ef8df39fd",
+        "id": "c011762f2195c36c",
         "type": "ui_spacer",
         "z": "a3eb30eb28df6688",
         "name": "spacer",
@@ -292,7 +310,7 @@
         "height": 1
     },
     {
-        "id": "8d8637ec1d57af2e",
+        "id": "ae27bb9d1448e998",
         "type": "ui_spacer",
         "z": "a3eb30eb28df6688",
         "name": "spacer",
@@ -302,7 +320,7 @@
         "height": 1
     },
     {
-        "id": "0cc6bd5b80032325",
+        "id": "6d9e24075a04b44f",
         "type": "ui_spacer",
         "z": "a3eb30eb28df6688",
         "name": "spacer",
@@ -312,7 +330,7 @@
         "height": 1
     },
     {
-        "id": "8e1645e6395a95a0",
+        "id": "301604eae0dbc91d",
         "type": "ui_spacer",
         "z": "a3eb30eb28df6688",
         "name": "spacer",
@@ -322,7 +340,7 @@
         "height": 1
     },
     {
-        "id": "259f8e9b57ff281b",
+        "id": "2096698212f0aa25",
         "type": "ui_spacer",
         "z": "a3eb30eb28df6688",
         "name": "spacer",
@@ -332,7 +350,7 @@
         "height": 1
     },
     {
-        "id": "0645ac8ccdf65bae",
+        "id": "5b580e8297f86745",
         "type": "ui_spacer",
         "z": "a3eb30eb28df6688",
         "name": "spacer",
@@ -342,7 +360,7 @@
         "height": 1
     },
     {
-        "id": "9cb5a3d7606239e8",
+        "id": "58b32e00aef4c741",
         "type": "ui_spacer",
         "z": "a3eb30eb28df6688",
         "name": "spacer",
@@ -352,7 +370,7 @@
         "height": 1
     },
     {
-        "id": "bb9315736acaee88",
+        "id": "6825c083f8e91d52",
         "type": "ui_spacer",
         "z": "a3eb30eb28df6688",
         "name": "spacer",
@@ -362,7 +380,7 @@
         "height": 1
     },
     {
-        "id": "76c4595f1fbd2d28",
+        "id": "b88f540203c4f34b",
         "type": "ui_spacer",
         "z": "a3eb30eb28df6688",
         "name": "spacer",
@@ -370,6 +388,34 @@
         "order": 45,
         "width": 6,
         "height": 1
+    },
+    {
+        "id": "52f789b7baccbbbe",
+        "type": "ui_spacer",
+        "z": "a3eb30eb28df6688",
+        "name": "spacer",
+        "group": "c1ff778839f486e5",
+        "order": 47,
+        "width": 11,
+        "height": 1
+    },
+    {
+        "id": "d59191f573ee1d63",
+        "type": "ui_tab",
+        "name": "Tab 2",
+        "icon": "dashboard",
+        "order": 2
+    },
+    {
+        "id": "6af572f4b2f0be45",
+        "type": "ui_group",
+        "name": "Visualisation BDD",
+        "tab": "d59191f573ee1d63",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
     },
     {
         "id": "f48b91f55dc0e747",
@@ -385,7 +431,7 @@
         "rh": 0,
         "inputs": 0,
         "x": 250,
-        "y": 2140,
+        "y": 2880,
         "wires": [
             [
                 "a6e38c91105d91c2",
@@ -413,11 +459,12 @@
         "to": "",
         "reg": false,
         "x": 830,
-        "y": 2220,
+        "y": 2960,
         "wires": [
             [
                 "4382e90caaa7d158",
-                "2720e87529c8b333"
+                "2720e87529c8b333",
+                "e550918dfac3056f"
             ]
         ]
     },
@@ -446,7 +493,7 @@
         "diff": false,
         "className": "",
         "x": 1080,
-        "y": 2300,
+        "y": 3040,
         "wires": []
     },
     {
@@ -463,7 +510,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 1060,
-        "y": 2220,
+        "y": 2960,
         "wires": []
     },
     {
@@ -480,7 +527,7 @@
         "rh": 0,
         "inputs": 0,
         "x": 250,
-        "y": 2400,
+        "y": 3220,
         "wires": [
             [
                 "acd103270b876e34",
@@ -508,41 +555,14 @@
         "to": "",
         "reg": false,
         "x": 830,
-        "y": 2460,
+        "y": 3280,
         "wires": [
             [
+                "68b38c3bcdf3ef76",
                 "a3070f3f4feccd4d",
-                "68b38c3bcdf3ef76"
+                "dfe496bd8a2b0e12"
             ]
         ]
-    },
-    {
-        "id": "a3070f3f4feccd4d",
-        "type": "ui_gauge",
-        "z": "a3eb30eb28df6688",
-        "name": "",
-        "group": "c1ff778839f486e5",
-        "order": 22,
-        "width": 6,
-        "height": 4,
-        "gtype": "gage",
-        "title": "Niveau %IW6 D",
-        "label": "°C",
-        "format": "{{value}}",
-        "min": 0,
-        "max": "100",
-        "colors": [
-            "#00b500",
-            "#e6e600",
-            "#ca3838"
-        ],
-        "seg1": "33",
-        "seg2": "66",
-        "diff": false,
-        "className": "",
-        "x": 1060,
-        "y": 2540,
-        "wires": []
     },
     {
         "id": "68b38c3bcdf3ef76",
@@ -558,7 +578,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 1040,
-        "y": 2460,
+        "y": 3280,
         "wires": []
     },
     {
@@ -575,7 +595,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 530,
-        "y": 2060,
+        "y": 2800,
         "wires": []
     },
     {
@@ -592,7 +612,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 530,
-        "y": 2380,
+        "y": 3200,
         "wires": []
     },
     {
@@ -622,10 +642,11 @@
         "animate": false,
         "className": "",
         "x": 250,
-        "y": 2920,
+        "y": 3660,
         "wires": [
             [
-                "efb8d9c48bf707f8"
+                "efb8d9c48bf707f8",
+                "789d68779b0d69b6"
             ]
         ]
     },
@@ -643,7 +664,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 870,
-        "y": 2920,
+        "y": 3660,
         "wires": []
     },
     {
@@ -661,7 +682,7 @@
         "expiry": "",
         "broker": "a430781bafed1c80",
         "x": 870,
-        "y": 2960,
+        "y": 3700,
         "wires": []
     },
     {
@@ -691,10 +712,11 @@
         "animate": false,
         "className": "",
         "x": 250,
-        "y": 3040,
+        "y": 3800,
         "wires": [
             [
-                "ae7344fa45f8e984"
+                "ae7344fa45f8e984",
+                "ec432fed504c10f2"
             ]
         ]
     },
@@ -712,7 +734,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 870,
-        "y": 3040,
+        "y": 3800,
         "wires": []
     },
     {
@@ -730,7 +752,7 @@
         "expiry": "",
         "broker": "a430781bafed1c80",
         "x": 870,
-        "y": 3080,
+        "y": 3840,
         "wires": []
     },
     {
@@ -760,10 +782,11 @@
         "animate": false,
         "className": "",
         "x": 250,
-        "y": 3160,
+        "y": 3940,
         "wires": [
             [
-                "3cfbf45d0c800b09"
+                "3cfbf45d0c800b09",
+                "ef92c9e420e286f3"
             ]
         ]
     },
@@ -781,7 +804,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 870,
-        "y": 3160,
+        "y": 3940,
         "wires": []
     },
     {
@@ -799,7 +822,7 @@
         "expiry": "",
         "broker": "a430781bafed1c80",
         "x": 870,
-        "y": 3200,
+        "y": 3980,
         "wires": []
     },
     {
@@ -829,10 +852,11 @@
         "animate": false,
         "className": "",
         "x": 250,
-        "y": 3280,
+        "y": 4080,
         "wires": [
             [
-                "f5c3ebb4d10d4c1b"
+                "f5c3ebb4d10d4c1b",
+                "1933172e969af167"
             ]
         ]
     },
@@ -850,7 +874,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 870,
-        "y": 3280,
+        "y": 4080,
         "wires": []
     },
     {
@@ -868,7 +892,7 @@
         "expiry": "",
         "broker": "a430781bafed1c80",
         "x": 870,
-        "y": 3320,
+        "y": 4120,
         "wires": []
     },
     {
@@ -898,10 +922,11 @@
         "animate": false,
         "className": "",
         "x": 250,
-        "y": 3400,
+        "y": 4220,
         "wires": [
             [
-                "4070f9548f29d4b0"
+                "4070f9548f29d4b0",
+                "5de8b488a7699711"
             ]
         ]
     },
@@ -919,7 +944,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 870,
-        "y": 3400,
+        "y": 4220,
         "wires": []
     },
     {
@@ -937,7 +962,7 @@
         "expiry": "",
         "broker": "a430781bafed1c80",
         "x": 870,
-        "y": 3440,
+        "y": 4260,
         "wires": []
     },
     {
@@ -967,10 +992,11 @@
         "animate": false,
         "className": "",
         "x": 250,
-        "y": 3500,
+        "y": 4360,
         "wires": [
             [
-                "d7d22ad2c1b84bb0"
+                "d7d22ad2c1b84bb0",
+                "a400e4ca137bf3a9"
             ]
         ]
     },
@@ -988,7 +1014,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 870,
-        "y": 3500,
+        "y": 4360,
         "wires": []
     },
     {
@@ -1006,7 +1032,7 @@
         "expiry": "",
         "broker": "a430781bafed1c80",
         "x": 870,
-        "y": 3540,
+        "y": 4400,
         "wires": []
     },
     {
@@ -1036,10 +1062,11 @@
         "animate": false,
         "className": "",
         "x": 250,
-        "y": 3600,
+        "y": 4500,
         "wires": [
             [
-                "b5be047d11da5538"
+                "b5be047d11da5538",
+                "10e120248386bc71"
             ]
         ]
     },
@@ -1057,7 +1084,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 870,
-        "y": 3600,
+        "y": 4500,
         "wires": []
     },
     {
@@ -1075,7 +1102,7 @@
         "expiry": "",
         "broker": "a430781bafed1c80",
         "x": 870,
-        "y": 3640,
+        "y": 4540,
         "wires": []
     },
     {
@@ -1105,10 +1132,11 @@
         "animate": false,
         "className": "",
         "x": 250,
-        "y": 3700,
+        "y": 4640,
         "wires": [
             [
-                "45994983f5146332"
+                "45994983f5146332",
+                "abd246c851edea5b"
             ]
         ]
     },
@@ -1126,7 +1154,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 870,
-        "y": 3700,
+        "y": 4640,
         "wires": []
     },
     {
@@ -1144,7 +1172,7 @@
         "expiry": "",
         "broker": "a430781bafed1c80",
         "x": 870,
-        "y": 3740,
+        "y": 4680,
         "wires": []
     },
     {
@@ -1174,10 +1202,11 @@
         "animate": false,
         "className": "",
         "x": 220,
-        "y": 3820,
+        "y": 4800,
         "wires": [
             [
-                "ec200ae92f5d618b"
+                "ec200ae92f5d618b",
+                "739638fe7db6b6fe"
             ]
         ]
     },
@@ -1195,7 +1224,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 880,
-        "y": 3800,
+        "y": 4780,
         "wires": []
     },
     {
@@ -1213,7 +1242,7 @@
         "expiry": "",
         "broker": "a430781bafed1c80",
         "x": 870,
-        "y": 3840,
+        "y": 4820,
         "wires": []
     },
     {
@@ -1228,7 +1257,7 @@
         "finalize": "",
         "libs": [],
         "x": 450,
-        "y": 3820,
+        "y": 4800,
         "wires": [
             [
                 "e813980c70d6a63c"
@@ -1262,10 +1291,11 @@
         "animate": false,
         "className": "",
         "x": 230,
-        "y": 3920,
+        "y": 4940,
         "wires": [
             [
-                "6eec558ad6b9fe85"
+                "6eec558ad6b9fe85",
+                "4686ae28ae0730fd"
             ]
         ]
     },
@@ -1283,7 +1313,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 880,
-        "y": 3900,
+        "y": 4920,
         "wires": []
     },
     {
@@ -1301,7 +1331,7 @@
         "expiry": "",
         "broker": "a430781bafed1c80",
         "x": 870,
-        "y": 3940,
+        "y": 4960,
         "wires": []
     },
     {
@@ -1311,12 +1341,13 @@
         "name": "Set Buffer 9",
         "func": "var msgmqtt = global.get('msgmqtt') || {};\nif ((msgmqtt[0] != 48) && (msgmqtt[0] != 49)) // exists \n{\n    var i;\n    msgmqtt = Buffer.alloc(13);\n    for (i = 0; i < 13; i++) {\n        msgmqtt[i] = 48;\n        global.set(\"msgmqtt\", msgmqtt);\n    }\n\n    \n\n}\nif (msg.payload== 1) {\n    msgmqtt[9] = 49;\n}\nelse {\n    msgmqtt[9] = 48;\n}\n\nglobal.set(\"msgmqtt\", msgmqtt);\n\nreturn msg;",
         "outputs": 1,
+        "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
         "x": 470,
-        "y": 3920,
+        "y": 4940,
         "wires": [
             [
                 "bfbbd9ba98ccc462"
@@ -1330,12 +1361,13 @@
         "name": "Set Buffer 0",
         "func": "var msgmqtt = global.get('msgmqtt') || {};\nif ((msgmqtt[0] != 48) && (msgmqtt[0] != 49)) // exists \n{\n    var i;\n    msgmqtt = Buffer.alloc(13);\n    for (i = 0; i < 13; i++) {\n        msgmqtt[i] = 48;\n        global.set(\"msgmqtt\", msgmqtt);\n    }\n\n    \n\n}\nif (msg.payload == 1) {\n    msgmqtt[0] = 49;\n}\nelse {\n    msgmqtt[0] = 48;\n}\n\nglobal.set(\"msgmqtt\", msgmqtt);\n\n\nreturn msg;",
         "outputs": 1,
+        "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
         "x": 430,
-        "y": 2920,
+        "y": 3660,
         "wires": [
             [
                 "f9bd9e0f34ed5fea"
@@ -1354,7 +1386,7 @@
         "finalize": "",
         "libs": [],
         "x": 430,
-        "y": 3040,
+        "y": 3800,
         "wires": [
             [
                 "df932534d43051b2"
@@ -1373,7 +1405,7 @@
         "finalize": "",
         "libs": [],
         "x": 430,
-        "y": 3160,
+        "y": 3940,
         "wires": [
             [
                 "85c4185f58535208"
@@ -1392,7 +1424,7 @@
         "finalize": "",
         "libs": [],
         "x": 430,
-        "y": 3280,
+        "y": 4080,
         "wires": [
             [
                 "d4e62bf97a847cef"
@@ -1411,7 +1443,7 @@
         "finalize": "",
         "libs": [],
         "x": 430,
-        "y": 3400,
+        "y": 4220,
         "wires": [
             [
                 "1fc5bfd4bf6434e5"
@@ -1430,7 +1462,7 @@
         "finalize": "",
         "libs": [],
         "x": 430,
-        "y": 3500,
+        "y": 4360,
         "wires": [
             [
                 "f12407dfdeb0d960"
@@ -1449,7 +1481,7 @@
         "finalize": "",
         "libs": [],
         "x": 430,
-        "y": 3600,
+        "y": 4500,
         "wires": [
             [
                 "4651806455b54df6"
@@ -1468,7 +1500,7 @@
         "finalize": "",
         "libs": [],
         "x": 430,
-        "y": 3700,
+        "y": 4640,
         "wires": [
             [
                 "e6fbf821bab58f8f"
@@ -1520,7 +1552,8 @@
         "wires": [
             [
                 "76afbb92d780a2bc",
-                "95e6fa1df66fea45"
+                "95e6fa1df66fea45",
+                "77e024062696b2e6"
             ]
         ]
     },
@@ -1587,7 +1620,7 @@
         "rh": 0,
         "inputs": 0,
         "x": 240,
-        "y": 160,
+        "y": 260,
         "wires": [
             [
                 "8f674f23fcba3c47"
@@ -1614,11 +1647,12 @@
         "to": "",
         "reg": false,
         "x": 530,
-        "y": 160,
+        "y": 260,
         "wires": [
             [
                 "1876f2e94a6cad79",
-                "bf41ece1bc0bda43"
+                "bf41ece1bc0bda43",
+                "e357379068352d30"
             ]
         ]
     },
@@ -1636,7 +1670,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 770,
-        "y": 160,
+        "y": 260,
         "wires": []
     },
     {
@@ -1666,7 +1700,7 @@
         "animate": false,
         "className": "",
         "x": 770,
-        "y": 200,
+        "y": 300,
         "wires": [
             []
         ]
@@ -1685,7 +1719,7 @@
         "rh": 0,
         "inputs": 0,
         "x": 240,
-        "y": 240,
+        "y": 440,
         "wires": [
             [
                 "e8f74db046670c7e"
@@ -1712,11 +1746,12 @@
         "to": "",
         "reg": false,
         "x": 530,
-        "y": 240,
+        "y": 440,
         "wires": [
             [
                 "9df2d69adc644465",
-                "2b6a9c26164030e8"
+                "2b6a9c26164030e8",
+                "fd8b6d8c513323ae"
             ]
         ]
     },
@@ -1734,7 +1769,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 770,
-        "y": 240,
+        "y": 440,
         "wires": []
     },
     {
@@ -1764,7 +1799,7 @@
         "animate": false,
         "className": "",
         "x": 770,
-        "y": 280,
+        "y": 480,
         "wires": [
             []
         ]
@@ -1783,7 +1818,7 @@
         "rh": 0,
         "inputs": 0,
         "x": 240,
-        "y": 320,
+        "y": 620,
         "wires": [
             [
                 "e81e64edbf0e48b5"
@@ -1810,11 +1845,12 @@
         "to": "",
         "reg": false,
         "x": 530,
-        "y": 320,
+        "y": 620,
         "wires": [
             [
                 "84a23ff466632edd",
-                "88586dc66bed95c6"
+                "88586dc66bed95c6",
+                "e4ab22dcb5d9ca87"
             ]
         ]
     },
@@ -1832,7 +1868,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 770,
-        "y": 320,
+        "y": 620,
         "wires": []
     },
     {
@@ -1862,7 +1898,7 @@
         "animate": false,
         "className": "",
         "x": 770,
-        "y": 360,
+        "y": 660,
         "wires": [
             []
         ]
@@ -1881,7 +1917,7 @@
         "rh": 0,
         "inputs": 0,
         "x": 240,
-        "y": 400,
+        "y": 800,
         "wires": [
             [
                 "fe743083759757e1"
@@ -1908,11 +1944,12 @@
         "to": "",
         "reg": false,
         "x": 530,
-        "y": 400,
+        "y": 800,
         "wires": [
             [
                 "bdc64ae527184e33",
-                "5f438b1c6f310e1a"
+                "5f438b1c6f310e1a",
+                "e61bc9552146a479"
             ]
         ]
     },
@@ -1930,7 +1967,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 770,
-        "y": 400,
+        "y": 800,
         "wires": []
     },
     {
@@ -1960,7 +1997,7 @@
         "animate": false,
         "className": "",
         "x": 770,
-        "y": 440,
+        "y": 840,
         "wires": [
             []
         ]
@@ -1979,7 +2016,7 @@
         "rh": 0,
         "inputs": 0,
         "x": 240,
-        "y": 480,
+        "y": 980,
         "wires": [
             [
                 "1d8f44f69a4cbd8a"
@@ -2006,11 +2043,12 @@
         "to": "",
         "reg": false,
         "x": 530,
-        "y": 480,
+        "y": 980,
         "wires": [
             [
                 "a723f7ef2be1cbf8",
-                "3e435c062e2ce0ec"
+                "3e435c062e2ce0ec",
+                "7d486396033ccfc7"
             ]
         ]
     },
@@ -2028,7 +2066,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 770,
-        "y": 480,
+        "y": 980,
         "wires": []
     },
     {
@@ -2058,7 +2096,7 @@
         "animate": false,
         "className": "",
         "x": 770,
-        "y": 520,
+        "y": 1020,
         "wires": [
             []
         ]
@@ -2077,7 +2115,7 @@
         "rh": 0,
         "inputs": 0,
         "x": 240,
-        "y": 560,
+        "y": 1160,
         "wires": [
             [
                 "44e3e4b4e80f21a5"
@@ -2104,11 +2142,12 @@
         "to": "",
         "reg": false,
         "x": 530,
-        "y": 560,
+        "y": 1160,
         "wires": [
             [
                 "0de15f2b32a51ee9",
-                "62f00344352569e2"
+                "62f00344352569e2",
+                "529cd7678832accb"
             ]
         ]
     },
@@ -2126,7 +2165,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 770,
-        "y": 560,
+        "y": 1160,
         "wires": []
     },
     {
@@ -2156,7 +2195,7 @@
         "animate": false,
         "className": "",
         "x": 770,
-        "y": 600,
+        "y": 1200,
         "wires": [
             []
         ]
@@ -2175,7 +2214,7 @@
         "rh": 0,
         "inputs": 0,
         "x": 240,
-        "y": 640,
+        "y": 1340,
         "wires": [
             [
                 "3705eccde1e385cf"
@@ -2202,11 +2241,12 @@
         "to": "",
         "reg": false,
         "x": 530,
-        "y": 640,
+        "y": 1340,
         "wires": [
             [
                 "add5c21bb4702cba",
-                "9dc00c3aa64bb1ec"
+                "9dc00c3aa64bb1ec",
+                "be5c7b82408f2de1"
             ]
         ]
     },
@@ -2224,7 +2264,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 770,
-        "y": 640,
+        "y": 1340,
         "wires": []
     },
     {
@@ -2254,7 +2294,7 @@
         "animate": false,
         "className": "",
         "x": 770,
-        "y": 680,
+        "y": 1380,
         "wires": [
             []
         ]
@@ -2273,7 +2313,7 @@
         "rh": 0,
         "inputs": 0,
         "x": 240,
-        "y": 740,
+        "y": 1520,
         "wires": [
             [
                 "9c09fdd4d31db246"
@@ -2300,11 +2340,12 @@
         "to": "",
         "reg": false,
         "x": 530,
-        "y": 740,
+        "y": 1520,
         "wires": [
             [
                 "7b51588013a4a991",
-                "598c4d3cc83d3c09"
+                "598c4d3cc83d3c09",
+                "ad955b218bc1eb8f"
             ]
         ]
     },
@@ -2322,7 +2363,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 770,
-        "y": 740,
+        "y": 1520,
         "wires": []
     },
     {
@@ -2352,7 +2393,7 @@
         "animate": false,
         "className": "",
         "x": 770,
-        "y": 780,
+        "y": 1560,
         "wires": [
             []
         ]
@@ -2371,7 +2412,7 @@
         "rh": 0,
         "inputs": 0,
         "x": 240,
-        "y": 820,
+        "y": 1700,
         "wires": [
             [
                 "2c8e61ce71743d15"
@@ -2398,11 +2439,12 @@
         "to": "",
         "reg": false,
         "x": 530,
-        "y": 820,
+        "y": 1700,
         "wires": [
             [
                 "e4cb1772521c1a8d",
-                "74d103a76ac1881e"
+                "74d103a76ac1881e",
+                "ab79f86a1ce3a61f"
             ]
         ]
     },
@@ -2420,7 +2462,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 770,
-        "y": 820,
+        "y": 1700,
         "wires": []
     },
     {
@@ -2450,7 +2492,7 @@
         "animate": false,
         "className": "",
         "x": 770,
-        "y": 860,
+        "y": 1740,
         "wires": [
             []
         ]
@@ -2469,7 +2511,7 @@
         "rh": 0,
         "inputs": 0,
         "x": 240,
-        "y": 900,
+        "y": 1880,
         "wires": [
             [
                 "866740c08e95cf7e"
@@ -2496,11 +2538,12 @@
         "to": "",
         "reg": false,
         "x": 530,
-        "y": 900,
+        "y": 1880,
         "wires": [
             [
                 "867be98bce09d124",
-                "e7a3f77c7a5fdb17"
+                "e7a3f77c7a5fdb17",
+                "b4dec91982be7e1c"
             ]
         ]
     },
@@ -2518,7 +2561,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 770,
-        "y": 900,
+        "y": 1880,
         "wires": []
     },
     {
@@ -2548,7 +2591,7 @@
         "animate": false,
         "className": "",
         "x": 770,
-        "y": 940,
+        "y": 1920,
         "wires": [
             []
         ]
@@ -2573,10 +2616,11 @@
         "step": 1,
         "className": "",
         "x": 180,
-        "y": 4060,
+        "y": 5080,
         "wires": [
             [
-                "487f85eb1cb7a283"
+                "487f85eb1cb7a283",
+                "575de21d5ce685d6"
             ]
         ]
     },
@@ -2594,7 +2638,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 1040,
-        "y": 4040,
+        "y": 5060,
         "wires": []
     },
     {
@@ -2612,7 +2656,7 @@
         "expiry": "",
         "broker": "a430781bafed1c80",
         "x": 1010,
-        "y": 4100,
+        "y": 5120,
         "wires": []
     },
     {
@@ -2622,12 +2666,13 @@
         "name": "Set Buffer 10",
         "func": "var msgmqtt = global.get('msgmqtt') || {};\nif ((msgmqtt[0] != 48) && (msgmqtt[0] != 49)) // exists \n{\n    var i;\n    msgmqtt = Buffer.alloc(13);\n    for (i = 0; i < 13; i++) {\n        msgmqtt[i] = 48;\n    }\n\n    global.set(\"msgmqtt\", msgmqtt);\n\n}\nmsgmqtt[10] = msg.payload+48;\n \n\nglobal.set(\"msgmqtt\", msgmqtt);\n\n\nreturn msg; ",
         "outputs": 1,
+        "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
         "x": 430,
-        "y": 4060,
+        "y": 5080,
         "wires": [
             [
                 "0d6ce25436eb12c4"
@@ -2648,7 +2693,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 510,
-        "y": 4280,
+        "y": 5220,
         "wires": []
     },
     {
@@ -2673,7 +2718,7 @@
         "payload": "$globalContext(\"msgmqtt\")\t",
         "payloadType": "jsonata",
         "x": 230,
-        "y": 4280,
+        "y": 5220,
         "wires": [
             [
                 "e313fbc4f2a75f9f"
@@ -2700,7 +2745,7 @@
         "to": "",
         "reg": false,
         "x": 680,
-        "y": 4060,
+        "y": 5080,
         "wires": [
             [
                 "2170235f0377ffe0",
@@ -2728,7 +2773,7 @@
         "to": "",
         "reg": false,
         "x": 660,
-        "y": 2920,
+        "y": 3660,
         "wires": [
             [
                 "9cb51666d442aa1e",
@@ -2756,7 +2801,7 @@
         "to": "",
         "reg": false,
         "x": 660,
-        "y": 3040,
+        "y": 3800,
         "wires": [
             [
                 "5ecab23074f376cc",
@@ -2784,7 +2829,7 @@
         "to": "",
         "reg": false,
         "x": 660,
-        "y": 3160,
+        "y": 3940,
         "wires": [
             [
                 "2b6dba4e88034957",
@@ -2812,7 +2857,7 @@
         "to": "",
         "reg": false,
         "x": 660,
-        "y": 3280,
+        "y": 4080,
         "wires": [
             [
                 "51b68106fc236df4",
@@ -2840,7 +2885,7 @@
         "to": "",
         "reg": false,
         "x": 660,
-        "y": 3400,
+        "y": 4220,
         "wires": [
             [
                 "3ca792fd26e1be84",
@@ -2868,7 +2913,7 @@
         "to": "",
         "reg": false,
         "x": 660,
-        "y": 3500,
+        "y": 4360,
         "wires": [
             [
                 "10b0d38a90a8d712",
@@ -2896,7 +2941,7 @@
         "to": "",
         "reg": false,
         "x": 660,
-        "y": 3600,
+        "y": 4500,
         "wires": [
             [
                 "267fa9c54d0967f7",
@@ -2924,7 +2969,7 @@
         "to": "",
         "reg": false,
         "x": 660,
-        "y": 3700,
+        "y": 4640,
         "wires": [
             [
                 "4c7b1c948a85983a",
@@ -2952,7 +2997,7 @@
         "to": "",
         "reg": false,
         "x": 660,
-        "y": 3820,
+        "y": 4800,
         "wires": [
             [
                 "b541e2c06c8cf289",
@@ -2980,11 +3025,2085 @@
         "to": "",
         "reg": false,
         "x": 660,
-        "y": 3920,
+        "y": 4940,
         "wires": [
             [
                 "515db3f009feebfc",
                 "4e1b86b4989db696"
+            ]
+        ]
+    },
+    {
+        "id": "08ac540c13dff319",
+        "type": "mysql",
+        "z": "a3eb30eb28df6688",
+        "mydb": "8d16cabef944a7a1",
+        "name": "test",
+        "x": 790,
+        "y": 2120,
+        "wires": [
+            [
+                "9aca4ca4622a9c5a"
+            ]
+        ]
+    },
+    {
+        "id": "5e07d7836d0b8b5e",
+        "type": "inject",
+        "z": "a3eb30eb28df6688",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 260,
+        "y": 2120,
+        "wires": [
+            [
+                "03ba939bd6f9dfdc"
+            ]
+        ]
+    },
+    {
+        "id": "03ba939bd6f9dfdc",
+        "type": "function",
+        "z": "a3eb30eb28df6688",
+        "name": "function 1",
+        "func": "msg.topic = \"SELECT * FROM test;\"\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 520,
+        "y": 2120,
+        "wires": [
+            [
+                "08ac540c13dff319"
+            ]
+        ]
+    },
+    {
+        "id": "9aca4ca4622a9c5a",
+        "type": "debug",
+        "z": "a3eb30eb28df6688",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 980,
+        "y": 2120,
+        "wires": []
+    },
+    {
+        "id": "9b0405b574a1e99b",
+        "type": "function",
+        "z": "a3eb30eb28df6688",
+        "name": "function 2",
+        "func": "msg.topic = \"INSERT INTO `test` (`test`) VALUES ('8');\"\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 520,
+        "y": 2200,
+        "wires": [
+            [
+                "ee4e6947c275fb13"
+            ]
+        ]
+    },
+    {
+        "id": "1e138ce230c9c9bf",
+        "type": "inject",
+        "z": "a3eb30eb28df6688",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 260,
+        "y": 2200,
+        "wires": [
+            [
+                "9b0405b574a1e99b"
+            ]
+        ]
+    },
+    {
+        "id": "ee4e6947c275fb13",
+        "type": "mysql",
+        "z": "a3eb30eb28df6688",
+        "mydb": "8d16cabef944a7a1",
+        "name": "test",
+        "x": 790,
+        "y": 2200,
+        "wires": [
+            [
+                "6acc342f522ef4c1"
+            ]
+        ]
+    },
+    {
+        "id": "6acc342f522ef4c1",
+        "type": "debug",
+        "z": "a3eb30eb28df6688",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 980,
+        "y": 2200,
+        "wires": []
+    },
+    {
+        "id": "789d68779b0d69b6",
+        "type": "function",
+        "z": "a3eb30eb28df6688",
+        "name": "Sent request SQL",
+        "func": "if (msg.payload == 1) {\n    msg.topic = \"INSERT INTO `Donnee` (horodatage, nom_du_capteur, valeur_capteur) VALUES (NOW(), '%Q8.0', '1');\"\n}\nelse {\n    msg.topic = \"INSERT INTO `Donnee` (horodatage, nom_du_capteur, valeur_capteur) VALUES (NOW(), '%Q8.0', '0');\"\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 3620,
+        "wires": [
+            [
+                "60143d5495f76204"
+            ]
+        ]
+    },
+    {
+        "id": "60143d5495f76204",
+        "type": "mysql",
+        "z": "a3eb30eb28df6688",
+        "mydb": "8d16cabef944a7a1",
+        "name": "Donnee",
+        "x": 660,
+        "y": 3600,
+        "wires": [
+            [
+                "77f55b80ec2e3345"
+            ]
+        ]
+    },
+    {
+        "id": "77f55b80ec2e3345",
+        "type": "debug",
+        "z": "a3eb30eb28df6688",
+        "name": "Valeur Led 0 BDD",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 870,
+        "y": 3620,
+        "wires": []
+    },
+    {
+        "id": "4bf1fcd7f347e7d0",
+        "type": "mysql",
+        "z": "a3eb30eb28df6688",
+        "mydb": "8d16cabef944a7a1",
+        "name": "Donnee",
+        "x": 760,
+        "y": 2300,
+        "wires": [
+            [
+                "23f322eeedb65f0c"
+            ]
+        ]
+    },
+    {
+        "id": "23f322eeedb65f0c",
+        "type": "debug",
+        "z": "a3eb30eb28df6688",
+        "name": "Valeur Led 0 BDD",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 970,
+        "y": 2300,
+        "wires": []
+    },
+    {
+        "id": "c627999bd29f55e0",
+        "type": "inject",
+        "z": "a3eb30eb28df6688",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 250,
+        "y": 2300,
+        "wires": [
+            [
+                "7b61d9d05c4668e1"
+            ]
+        ]
+    },
+    {
+        "id": "7b61d9d05c4668e1",
+        "type": "function",
+        "z": "a3eb30eb28df6688",
+        "name": "Sent request SQL",
+        "func": "msg.topic = \"INSERT INTO `Donnee` (horodatage, nom_du_capteur, valeur_capteur) VALUES (NOW(), 'Q%8.0', '1');\"\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 530,
+        "y": 2300,
+        "wires": [
+            [
+                "4bf1fcd7f347e7d0"
+            ]
+        ]
+    },
+    {
+        "id": "ec432fed504c10f2",
+        "type": "function",
+        "z": "a3eb30eb28df6688",
+        "name": "Sent request SQL",
+        "func": "if (msg.payload == 1) {\n    msg.topic = \"INSERT INTO `Donnee` (horodatage, nom_du_capteur, valeur_capteur) VALUES (NOW(), '%Q8.1', '1');\"\n}\nelse {\n    msg.topic = \"INSERT INTO `Donnee` (horodatage, nom_du_capteur, valeur_capteur) VALUES (NOW(), '%Q8.1', '0');\"\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 3760,
+        "wires": [
+            [
+                "e17008dd138d9510"
+            ]
+        ]
+    },
+    {
+        "id": "e17008dd138d9510",
+        "type": "mysql",
+        "z": "a3eb30eb28df6688",
+        "mydb": "8d16cabef944a7a1",
+        "name": "Donnee",
+        "x": 660,
+        "y": 3740,
+        "wires": [
+            [
+                "cef3d813526c2cf1"
+            ]
+        ]
+    },
+    {
+        "id": "cef3d813526c2cf1",
+        "type": "debug",
+        "z": "a3eb30eb28df6688",
+        "name": "Valeur Led 1 BDD",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 870,
+        "y": 3760,
+        "wires": []
+    },
+    {
+        "id": "ef92c9e420e286f3",
+        "type": "function",
+        "z": "a3eb30eb28df6688",
+        "name": "Sent request SQL",
+        "func": "if (msg.payload == 1) {\n    msg.topic = \"INSERT INTO `Donnee` (horodatage, nom_du_capteur, valeur_capteur) VALUES (NOW(), '%Q8.2', '1');\"\n}\nelse {\n    msg.topic = \"INSERT INTO `Donnee` (horodatage, nom_du_capteur, valeur_capteur) VALUES (NOW(), '%Q8.2', '0');\"\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 3900,
+        "wires": [
+            [
+                "f827db52d34d4ebd"
+            ]
+        ]
+    },
+    {
+        "id": "f827db52d34d4ebd",
+        "type": "mysql",
+        "z": "a3eb30eb28df6688",
+        "mydb": "8d16cabef944a7a1",
+        "name": "Donnee",
+        "x": 660,
+        "y": 3880,
+        "wires": [
+            [
+                "252913831cc6727a"
+            ]
+        ]
+    },
+    {
+        "id": "252913831cc6727a",
+        "type": "debug",
+        "z": "a3eb30eb28df6688",
+        "name": "Valeur Led 2 BDD",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 870,
+        "y": 3900,
+        "wires": []
+    },
+    {
+        "id": "1933172e969af167",
+        "type": "function",
+        "z": "a3eb30eb28df6688",
+        "name": "Sent request SQL",
+        "func": "if (msg.payload == 1) {\n    msg.topic = \"INSERT INTO `Donnee` (horodatage, nom_du_capteur, valeur_capteur) VALUES (NOW(), '%Q8.3', '1');\"\n}\nelse {\n    msg.topic = \"INSERT INTO `Donnee` (horodatage, nom_du_capteur, valeur_capteur) VALUES (NOW(), '%Q8.3', '0');\"\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 4040,
+        "wires": [
+            [
+                "6820a007602c093f"
+            ]
+        ]
+    },
+    {
+        "id": "6820a007602c093f",
+        "type": "mysql",
+        "z": "a3eb30eb28df6688",
+        "mydb": "8d16cabef944a7a1",
+        "name": "Donnee",
+        "x": 660,
+        "y": 4020,
+        "wires": [
+            [
+                "7f7f75146f7289cc"
+            ]
+        ]
+    },
+    {
+        "id": "7f7f75146f7289cc",
+        "type": "debug",
+        "z": "a3eb30eb28df6688",
+        "name": "Valeur Led 3 BDD",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 870,
+        "y": 4040,
+        "wires": []
+    },
+    {
+        "id": "5de8b488a7699711",
+        "type": "function",
+        "z": "a3eb30eb28df6688",
+        "name": "Sent request SQL",
+        "func": "if (msg.payload == 1) {\n    msg.topic = \"INSERT INTO `Donnee` (horodatage, nom_du_capteur, valeur_capteur) VALUES (NOW(), '%Q8.4', '1');\"\n}\nelse {\n    msg.topic = \"INSERT INTO `Donnee` (horodatage, nom_du_capteur, valeur_capteur) VALUES (NOW(), '%Q8.4', '0');\"\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 4180,
+        "wires": [
+            [
+                "8269a832b6b8be3c"
+            ]
+        ]
+    },
+    {
+        "id": "8269a832b6b8be3c",
+        "type": "mysql",
+        "z": "a3eb30eb28df6688",
+        "mydb": "8d16cabef944a7a1",
+        "name": "Donnee",
+        "x": 660,
+        "y": 4160,
+        "wires": [
+            [
+                "898ca8d1978731e3"
+            ]
+        ]
+    },
+    {
+        "id": "898ca8d1978731e3",
+        "type": "debug",
+        "z": "a3eb30eb28df6688",
+        "name": "Valeur Led 4 BDD",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 870,
+        "y": 4180,
+        "wires": []
+    },
+    {
+        "id": "a400e4ca137bf3a9",
+        "type": "function",
+        "z": "a3eb30eb28df6688",
+        "name": "Sent request SQL",
+        "func": "if (msg.payload == 1) {\n    msg.topic = \"INSERT INTO `Donnee` (horodatage, nom_du_capteur, valeur_capteur) VALUES (NOW(), '%Q8.5', '1');\"\n}\nelse {\n    msg.topic = \"INSERT INTO `Donnee` (horodatage, nom_du_capteur, valeur_capteur) VALUES (NOW(), '%Q8.5', '0');\"\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 4320,
+        "wires": [
+            [
+                "9d93a50354f20c31"
+            ]
+        ]
+    },
+    {
+        "id": "9d93a50354f20c31",
+        "type": "mysql",
+        "z": "a3eb30eb28df6688",
+        "mydb": "8d16cabef944a7a1",
+        "name": "Donnee",
+        "x": 660,
+        "y": 4300,
+        "wires": [
+            [
+                "6c0097dde8daddaa"
+            ]
+        ]
+    },
+    {
+        "id": "6c0097dde8daddaa",
+        "type": "debug",
+        "z": "a3eb30eb28df6688",
+        "name": "Valeur Led 5 BDD",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 870,
+        "y": 4320,
+        "wires": []
+    },
+    {
+        "id": "10e120248386bc71",
+        "type": "function",
+        "z": "a3eb30eb28df6688",
+        "name": "Sent request SQL",
+        "func": "if (msg.payload == 1) {\n    msg.topic = \"INSERT INTO `Donnee` (horodatage, nom_du_capteur, valeur_capteur) VALUES (NOW(), '%Q8.6', '1');\"\n}\nelse {\n    msg.topic = \"INSERT INTO `Donnee` (horodatage, nom_du_capteur, valeur_capteur) VALUES (NOW(), '%Q8.6', '0');\"\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 4460,
+        "wires": [
+            [
+                "ffc58b750890f104"
+            ]
+        ]
+    },
+    {
+        "id": "ffc58b750890f104",
+        "type": "mysql",
+        "z": "a3eb30eb28df6688",
+        "mydb": "8d16cabef944a7a1",
+        "name": "Donnee",
+        "x": 660,
+        "y": 4440,
+        "wires": [
+            [
+                "51264f6d0ec811f7"
+            ]
+        ]
+    },
+    {
+        "id": "51264f6d0ec811f7",
+        "type": "debug",
+        "z": "a3eb30eb28df6688",
+        "name": "Valeur Led 6 BDD",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 870,
+        "y": 4460,
+        "wires": []
+    },
+    {
+        "id": "abd246c851edea5b",
+        "type": "function",
+        "z": "a3eb30eb28df6688",
+        "name": "Sent request SQL",
+        "func": "if (msg.payload == 1) {\n    msg.topic = \"INSERT INTO `Donnee` (horodatage, nom_du_capteur, valeur_capteur) VALUES (NOW(), '%Q8.7', '1');\"\n}\nelse {\n    msg.topic = \"INSERT INTO `Donnee` (horodatage, nom_du_capteur, valeur_capteur) VALUES (NOW(), '%Q8.7', '0');\"\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 4600,
+        "wires": [
+            [
+                "bdd4772a41dc03f2"
+            ]
+        ]
+    },
+    {
+        "id": "bdd4772a41dc03f2",
+        "type": "mysql",
+        "z": "a3eb30eb28df6688",
+        "mydb": "8d16cabef944a7a1",
+        "name": "Donnee",
+        "x": 660,
+        "y": 4580,
+        "wires": [
+            [
+                "688b6a8e43895cd4"
+            ]
+        ]
+    },
+    {
+        "id": "688b6a8e43895cd4",
+        "type": "debug",
+        "z": "a3eb30eb28df6688",
+        "name": "Valeur Led 7 BDD",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 870,
+        "y": 4600,
+        "wires": []
+    },
+    {
+        "id": "087faa088cfb43bf",
+        "type": "function",
+        "z": "a3eb30eb28df6688",
+        "name": "Sent request SQL",
+        "func": "if (msg.payload == 1) {\n    msg.topic = \"INSERT INTO `Donnee` (horodatage, nom_du_capteur, valeur_capteur) VALUES (NOW(), '%I17.0', '1');\"\n}\nelse {\n    msg.topic = \"INSERT INTO `Donnee` (horodatage, nom_du_capteur, valeur_capteur) VALUES (NOW(), '%I17.0', '0');\"\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 530,
+        "y": 2420,
+        "wires": [
+            [
+                "b5b2f7227b23a8c7"
+            ]
+        ]
+    },
+    {
+        "id": "b5b2f7227b23a8c7",
+        "type": "mysql",
+        "z": "a3eb30eb28df6688",
+        "mydb": "8d16cabef944a7a1",
+        "name": "Donnee",
+        "x": 760,
+        "y": 2420,
+        "wires": [
+            [
+                "9f407da5f4cb7ac9"
+            ]
+        ]
+    },
+    {
+        "id": "9f407da5f4cb7ac9",
+        "type": "debug",
+        "z": "a3eb30eb28df6688",
+        "name": "test I%17.0",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 950,
+        "y": 2420,
+        "wires": []
+    },
+    {
+        "id": "e2a5189de0dc07d5",
+        "type": "ui_switch",
+        "z": "a3eb30eb28df6688",
+        "name": "%I17.0",
+        "label": "switch",
+        "tooltip": "",
+        "group": "c1ff778839f486e5",
+        "order": 48,
+        "width": "3",
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "1",
+        "onvalueType": "num",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "0",
+        "offvalueType": "num",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 240,
+        "y": 2420,
+        "wires": [
+            [
+                "087faa088cfb43bf"
+            ]
+        ]
+    },
+    {
+        "id": "77e024062696b2e6",
+        "type": "function",
+        "z": "a3eb30eb28df6688",
+        "name": "Sent request SQL",
+        "func": "if (msg.payload == 1) {\n    msg.topic = \"INSERT INTO `Donnee` (horodatage, nom_du_capteur, valeur_capteur) VALUES (NOW(), '%I16.0', '1');\"\n}\nelse {\n    msg.topic = \"INSERT INTO `Donnee` (horodatage, nom_du_capteur, valeur_capteur) VALUES (NOW(), '%I16.0', '0');\"\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 750,
+        "y": 180,
+        "wires": [
+            [
+                "ccbf04ac0a342bca"
+            ]
+        ]
+    },
+    {
+        "id": "ccbf04ac0a342bca",
+        "type": "mysql",
+        "z": "a3eb30eb28df6688",
+        "mydb": "8d16cabef944a7a1",
+        "name": "Donnee",
+        "x": 940,
+        "y": 180,
+        "wires": [
+            [
+                "231baeab663341cf"
+            ]
+        ]
+    },
+    {
+        "id": "231baeab663341cf",
+        "type": "debug",
+        "z": "a3eb30eb28df6688",
+        "name": "BDD I%16.0",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1110,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "e357379068352d30",
+        "type": "function",
+        "z": "a3eb30eb28df6688",
+        "name": "Sent request SQL",
+        "func": "if (msg.payload == 1) {\n    msg.topic = \"INSERT INTO `Donnee` (horodatage, nom_du_capteur, valeur_capteur) VALUES (NOW(), '%I16.1', '1');\"\n}\nelse {\n    msg.topic = \"INSERT INTO `Donnee` (horodatage, nom_du_capteur, valeur_capteur) VALUES (NOW(), '%I16.1', '0');\"\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 750,
+        "y": 360,
+        "wires": [
+            [
+                "70c2e424bd8885fb"
+            ]
+        ]
+    },
+    {
+        "id": "70c2e424bd8885fb",
+        "type": "mysql",
+        "z": "a3eb30eb28df6688",
+        "mydb": "8d16cabef944a7a1",
+        "name": "Donnee",
+        "x": 940,
+        "y": 360,
+        "wires": [
+            [
+                "a19cd4da26aad27a"
+            ]
+        ]
+    },
+    {
+        "id": "a19cd4da26aad27a",
+        "type": "debug",
+        "z": "a3eb30eb28df6688",
+        "name": "BDD I%16.1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1110,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "fd8b6d8c513323ae",
+        "type": "function",
+        "z": "a3eb30eb28df6688",
+        "name": "Sent request SQL",
+        "func": "if (msg.payload == 1) {\n    msg.topic = \"INSERT INTO `Donnee` (horodatage, nom_du_capteur, valeur_capteur) VALUES (NOW(), '%I16.2', '1');\"\n}\nelse {\n    msg.topic = \"INSERT INTO `Donnee` (horodatage, nom_du_capteur, valeur_capteur) VALUES (NOW(), '%I16.2', '0');\"\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 750,
+        "y": 540,
+        "wires": [
+            [
+                "8faadc2d561d4209"
+            ]
+        ]
+    },
+    {
+        "id": "8faadc2d561d4209",
+        "type": "mysql",
+        "z": "a3eb30eb28df6688",
+        "mydb": "8d16cabef944a7a1",
+        "name": "Donnee",
+        "x": 940,
+        "y": 540,
+        "wires": [
+            [
+                "783976cb0c642280"
+            ]
+        ]
+    },
+    {
+        "id": "783976cb0c642280",
+        "type": "debug",
+        "z": "a3eb30eb28df6688",
+        "name": "BDD I%16.2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1110,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "e4ab22dcb5d9ca87",
+        "type": "function",
+        "z": "a3eb30eb28df6688",
+        "name": "Sent request SQL",
+        "func": "if (msg.payload == 1) {\n    msg.topic = \"INSERT INTO `Donnee` (horodatage, nom_du_capteur, valeur_capteur) VALUES (NOW(), '%I16.3', '1');\"\n}\nelse {\n    msg.topic = \"INSERT INTO `Donnee` (horodatage, nom_du_capteur, valeur_capteur) VALUES (NOW(), '%I16.3', '0');\"\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 750,
+        "y": 720,
+        "wires": [
+            [
+                "01107392e3ead426"
+            ]
+        ]
+    },
+    {
+        "id": "01107392e3ead426",
+        "type": "mysql",
+        "z": "a3eb30eb28df6688",
+        "mydb": "8d16cabef944a7a1",
+        "name": "Donnee",
+        "x": 940,
+        "y": 720,
+        "wires": [
+            [
+                "b1af74410896d3c4"
+            ]
+        ]
+    },
+    {
+        "id": "b1af74410896d3c4",
+        "type": "debug",
+        "z": "a3eb30eb28df6688",
+        "name": "BDD I%16.3",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1110,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "e61bc9552146a479",
+        "type": "function",
+        "z": "a3eb30eb28df6688",
+        "name": "Sent request SQL",
+        "func": "if (msg.payload == 1) {\n    msg.topic = \"INSERT INTO `Donnee` (horodatage, nom_du_capteur, valeur_capteur) VALUES (NOW(), '%I16.4', '1');\"\n}\nelse {\n    msg.topic = \"INSERT INTO `Donnee` (horodatage, nom_du_capteur, valeur_capteur) VALUES (NOW(), '%I16.4', '0');\"\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 750,
+        "y": 900,
+        "wires": [
+            [
+                "20b50106053baae3"
+            ]
+        ]
+    },
+    {
+        "id": "20b50106053baae3",
+        "type": "mysql",
+        "z": "a3eb30eb28df6688",
+        "mydb": "8d16cabef944a7a1",
+        "name": "Donnee",
+        "x": 940,
+        "y": 900,
+        "wires": [
+            [
+                "635a5726eab98d45"
+            ]
+        ]
+    },
+    {
+        "id": "635a5726eab98d45",
+        "type": "debug",
+        "z": "a3eb30eb28df6688",
+        "name": "BDD I%16.4",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1110,
+        "y": 900,
+        "wires": []
+    },
+    {
+        "id": "7d486396033ccfc7",
+        "type": "function",
+        "z": "a3eb30eb28df6688",
+        "name": "Sent request SQL",
+        "func": "if (msg.payload == 1) {\n    msg.topic = \"INSERT INTO `Donnee` (horodatage, nom_du_capteur, valeur_capteur) VALUES (NOW(), '%I16.5', '1');\"\n}\nelse {\n    msg.topic = \"INSERT INTO `Donnee` (horodatage, nom_du_capteur, valeur_capteur) VALUES (NOW(), '%I16.5', '0');\"\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 750,
+        "y": 1080,
+        "wires": [
+            [
+                "2dea6442cb8b1017"
+            ]
+        ]
+    },
+    {
+        "id": "2dea6442cb8b1017",
+        "type": "mysql",
+        "z": "a3eb30eb28df6688",
+        "mydb": "8d16cabef944a7a1",
+        "name": "Donnee",
+        "x": 940,
+        "y": 1080,
+        "wires": [
+            [
+                "4f029764880bdd80"
+            ]
+        ]
+    },
+    {
+        "id": "4f029764880bdd80",
+        "type": "debug",
+        "z": "a3eb30eb28df6688",
+        "name": "BDD I%16.5",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1110,
+        "y": 1080,
+        "wires": []
+    },
+    {
+        "id": "529cd7678832accb",
+        "type": "function",
+        "z": "a3eb30eb28df6688",
+        "name": "Sent request SQL",
+        "func": "if (msg.payload == 1) {\n    msg.topic = \"INSERT INTO `Donnee` (horodatage, nom_du_capteur, valeur_capteur) VALUES (NOW(), '%I16.6', '1');\"\n}\nelse {\n    msg.topic = \"INSERT INTO `Donnee` (horodatage, nom_du_capteur, valeur_capteur) VALUES (NOW(), '%I16.6', '0');\"\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 750,
+        "y": 1260,
+        "wires": [
+            [
+                "f62561891fc32c64"
+            ]
+        ]
+    },
+    {
+        "id": "f62561891fc32c64",
+        "type": "mysql",
+        "z": "a3eb30eb28df6688",
+        "mydb": "8d16cabef944a7a1",
+        "name": "Donnee",
+        "x": 940,
+        "y": 1260,
+        "wires": [
+            [
+                "1c59b19d0b6176d8"
+            ]
+        ]
+    },
+    {
+        "id": "1c59b19d0b6176d8",
+        "type": "debug",
+        "z": "a3eb30eb28df6688",
+        "name": "BDD I%16.6",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1110,
+        "y": 1260,
+        "wires": []
+    },
+    {
+        "id": "be5c7b82408f2de1",
+        "type": "function",
+        "z": "a3eb30eb28df6688",
+        "name": "Sent request SQL",
+        "func": "if (msg.payload == 1) {\n    msg.topic = \"INSERT INTO `Donnee` (horodatage, nom_du_capteur, valeur_capteur) VALUES (NOW(), '%I16.7', '1');\"\n}\nelse {\n    msg.topic = \"INSERT INTO `Donnee` (horodatage, nom_du_capteur, valeur_capteur) VALUES (NOW(), '%I16.7', '0');\"\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 750,
+        "y": 1440,
+        "wires": [
+            [
+                "af92ec7c5d627625"
+            ]
+        ]
+    },
+    {
+        "id": "af92ec7c5d627625",
+        "type": "mysql",
+        "z": "a3eb30eb28df6688",
+        "mydb": "8d16cabef944a7a1",
+        "name": "Donnee",
+        "x": 940,
+        "y": 1440,
+        "wires": [
+            [
+                "2767b1414837343b"
+            ]
+        ]
+    },
+    {
+        "id": "2767b1414837343b",
+        "type": "debug",
+        "z": "a3eb30eb28df6688",
+        "name": "BDD I%16.7",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1110,
+        "y": 1440,
+        "wires": []
+    },
+    {
+        "id": "ad955b218bc1eb8f",
+        "type": "function",
+        "z": "a3eb30eb28df6688",
+        "name": "Sent request SQL",
+        "func": "if (msg.payload == 1) {\n    msg.topic = \"INSERT INTO `Donnee` (horodatage, nom_du_capteur, valeur_capteur) VALUES (NOW(), '%I17.2', '1');\"\n}\nelse {\n    msg.topic = \"INSERT INTO `Donnee` (horodatage, nom_du_capteur, valeur_capteur) VALUES (NOW(), '%I17.2', '0');\"\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 750,
+        "y": 1620,
+        "wires": [
+            [
+                "cc92ec55cc4a17f4"
+            ]
+        ]
+    },
+    {
+        "id": "cc92ec55cc4a17f4",
+        "type": "mysql",
+        "z": "a3eb30eb28df6688",
+        "mydb": "8d16cabef944a7a1",
+        "name": "Donnee",
+        "x": 940,
+        "y": 1620,
+        "wires": [
+            [
+                "96f6d5dafd37c8bf"
+            ]
+        ]
+    },
+    {
+        "id": "96f6d5dafd37c8bf",
+        "type": "debug",
+        "z": "a3eb30eb28df6688",
+        "name": "BDD I%17.2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1110,
+        "y": 1620,
+        "wires": []
+    },
+    {
+        "id": "ab79f86a1ce3a61f",
+        "type": "function",
+        "z": "a3eb30eb28df6688",
+        "name": "Sent request SQL",
+        "func": "if (msg.payload == 1) {\n    msg.topic = \"INSERT INTO `Donnee` (horodatage, nom_du_capteur, valeur_capteur) VALUES (NOW(), '%I17.1', '1');\"\n}\nelse {\n    msg.topic = \"INSERT INTO `Donnee` (horodatage, nom_du_capteur, valeur_capteur) VALUES (NOW(), '%I17.1', '0');\"\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 750,
+        "y": 1800,
+        "wires": [
+            [
+                "b832db056e53ff95"
+            ]
+        ]
+    },
+    {
+        "id": "b832db056e53ff95",
+        "type": "mysql",
+        "z": "a3eb30eb28df6688",
+        "mydb": "8d16cabef944a7a1",
+        "name": "Donnee",
+        "x": 940,
+        "y": 1800,
+        "wires": [
+            [
+                "81e7eef1bc1c3eb4"
+            ]
+        ]
+    },
+    {
+        "id": "81e7eef1bc1c3eb4",
+        "type": "debug",
+        "z": "a3eb30eb28df6688",
+        "name": "BDD I%17.1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1110,
+        "y": 1800,
+        "wires": []
+    },
+    {
+        "id": "b4dec91982be7e1c",
+        "type": "function",
+        "z": "a3eb30eb28df6688",
+        "name": "Sent request SQL",
+        "func": "if (msg.payload == 1) {\n    msg.topic = \"INSERT INTO `Donnee` (horodatage, nom_du_capteur, valeur_capteur) VALUES (NOW(), '%I17.0', '1');\"\n}\nelse {\n    msg.topic = \"INSERT INTO `Donnee` (horodatage, nom_du_capteur, valeur_capteur) VALUES (NOW(), '%I17.0', '0');\"\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 750,
+        "y": 1980,
+        "wires": [
+            [
+                "1508d43f0a6d7a9a"
+            ]
+        ]
+    },
+    {
+        "id": "1508d43f0a6d7a9a",
+        "type": "mysql",
+        "z": "a3eb30eb28df6688",
+        "mydb": "8d16cabef944a7a1",
+        "name": "Donnee",
+        "x": 940,
+        "y": 1980,
+        "wires": [
+            [
+                "977173f696bcfc6a"
+            ]
+        ]
+    },
+    {
+        "id": "977173f696bcfc6a",
+        "type": "debug",
+        "z": "a3eb30eb28df6688",
+        "name": "BDD I%17.0",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1110,
+        "y": 1980,
+        "wires": []
+    },
+    {
+        "id": "739638fe7db6b6fe",
+        "type": "function",
+        "z": "a3eb30eb28df6688",
+        "name": "Sent request SQL",
+        "func": "if (msg.payload == 1) {\n    msg.topic = \"INSERT INTO `Donnee` (horodatage, nom_du_capteur, valeur_capteur) VALUES (NOW(), 'Moteur_Horaire', '1');\"\n}\nelse {\n    msg.topic = \"INSERT INTO `Donnee` (horodatage, nom_du_capteur, valeur_capteur) VALUES (NOW(), 'Moteur_Horaire', '0');\"\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 470,
+        "y": 4740,
+        "wires": [
+            [
+                "7064c899439a7f5b"
+            ]
+        ]
+    },
+    {
+        "id": "7064c899439a7f5b",
+        "type": "mysql",
+        "z": "a3eb30eb28df6688",
+        "mydb": "8d16cabef944a7a1",
+        "name": "Donnee",
+        "x": 680,
+        "y": 4740,
+        "wires": [
+            [
+                "d7b8a1582ad3107d"
+            ]
+        ]
+    },
+    {
+        "id": "d7b8a1582ad3107d",
+        "type": "debug",
+        "z": "a3eb30eb28df6688",
+        "name": "Valeur Moteur_Horaire BDD",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 920,
+        "y": 4740,
+        "wires": []
+    },
+    {
+        "id": "dc770404ed477bd3",
+        "type": "debug",
+        "z": "a3eb30eb28df6688",
+        "name": "Valeur Moteur_Antihoraire BDD",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 930,
+        "y": 4880,
+        "wires": []
+    },
+    {
+        "id": "dc84893547a6de35",
+        "type": "mysql",
+        "z": "a3eb30eb28df6688",
+        "mydb": "8d16cabef944a7a1",
+        "name": "Donnee",
+        "x": 680,
+        "y": 4880,
+        "wires": [
+            [
+                "dc770404ed477bd3"
+            ]
+        ]
+    },
+    {
+        "id": "4686ae28ae0730fd",
+        "type": "function",
+        "z": "a3eb30eb28df6688",
+        "name": "Sent request SQL",
+        "func": "if (msg.payload == 1) {\n    msg.topic = \"INSERT INTO `Donnee` (horodatage, nom_du_capteur, valeur_capteur) VALUES (NOW(), 'Moteur_Antihoraire', '1');\"\n}\nelse {\n    msg.topic = \"INSERT INTO `Donnee` (horodatage, nom_du_capteur, valeur_capteur) VALUES (NOW(), 'Moteur_Antihoraire', '0');\"\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 490,
+        "y": 4880,
+        "wires": [
+            [
+                "dc84893547a6de35"
+            ]
+        ]
+    },
+    {
+        "id": "4a8285c39b0b5328",
+        "type": "debug",
+        "z": "a3eb30eb28df6688",
+        "name": "Valeur Potentiomètre BDD",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 860,
+        "y": 5020,
+        "wires": []
+    },
+    {
+        "id": "3e0007d0f0c6620b",
+        "type": "mysql",
+        "z": "a3eb30eb28df6688",
+        "mydb": "8d16cabef944a7a1",
+        "name": "Donnee",
+        "x": 620,
+        "y": 5020,
+        "wires": [
+            [
+                "4a8285c39b0b5328"
+            ]
+        ]
+    },
+    {
+        "id": "575de21d5ce685d6",
+        "type": "template",
+        "z": "a3eb30eb28df6688",
+        "name": "",
+        "field": "topic",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "INSERT INTO `Donnee` (horodatage, nom_du_capteur, valeur_capteur) VALUES (NOW(), 'Potentiomètre', {{payload}});",
+        "output": "str",
+        "x": 440,
+        "y": 5020,
+        "wires": [
+            [
+                "3e0007d0f0c6620b"
+            ]
+        ]
+    },
+    {
+        "id": "a3070f3f4feccd4d",
+        "type": "ui_gauge",
+        "z": "a3eb30eb28df6688",
+        "name": "",
+        "group": "c1ff778839f486e5",
+        "order": 22,
+        "width": 6,
+        "height": 4,
+        "gtype": "gage",
+        "title": "Niveau %IW6 D",
+        "label": "°C",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "33",
+        "seg2": "66",
+        "diff": false,
+        "className": "",
+        "x": 1060,
+        "y": 3360,
+        "wires": []
+    },
+    {
+        "id": "cc333ef2df96f14b",
+        "type": "debug",
+        "z": "a3eb30eb28df6688",
+        "name": "Valeur Potar_D BDD",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1040,
+        "y": 3420,
+        "wires": []
+    },
+    {
+        "id": "9b08056ce676569d",
+        "type": "mysql",
+        "z": "a3eb30eb28df6688",
+        "mydb": "8d16cabef944a7a1",
+        "name": "Donnee",
+        "x": 820,
+        "y": 3420,
+        "wires": [
+            [
+                "cc333ef2df96f14b"
+            ]
+        ]
+    },
+    {
+        "id": "dfe496bd8a2b0e12",
+        "type": "template",
+        "z": "a3eb30eb28df6688",
+        "name": "",
+        "field": "topic",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "INSERT INTO `Donnee` (horodatage, nom_du_capteur, valeur_capteur) VALUES (NOW(), 'Potar D', {{value}});",
+        "output": "str",
+        "x": 640,
+        "y": 3420,
+        "wires": [
+            [
+                "9b08056ce676569d"
+            ]
+        ]
+    },
+    {
+        "id": "947703a8616a237c",
+        "type": "debug",
+        "z": "a3eb30eb28df6688",
+        "name": "Valeur Potar_G BDD",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1060,
+        "y": 3100,
+        "wires": []
+    },
+    {
+        "id": "6ed44b2437598327",
+        "type": "mysql",
+        "z": "a3eb30eb28df6688",
+        "mydb": "8d16cabef944a7a1",
+        "name": "Donnee",
+        "x": 840,
+        "y": 3100,
+        "wires": [
+            [
+                "947703a8616a237c"
+            ]
+        ]
+    },
+    {
+        "id": "e550918dfac3056f",
+        "type": "template",
+        "z": "a3eb30eb28df6688",
+        "name": "",
+        "field": "topic",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "INSERT INTO `Donnee` (horodatage, nom_du_capteur, valeur_capteur) VALUES (NOW(), 'Potar G', {{value}});",
+        "output": "str",
+        "x": 660,
+        "y": 3100,
+        "wires": [
+            [
+                "6ed44b2437598327"
+            ]
+        ]
+    },
+    {
+        "id": "287e077022dfb4e9",
+        "type": "mysql",
+        "z": "b8b9e97420e20a25",
+        "mydb": "8d16cabef944a7a1",
+        "name": "test",
+        "x": 650,
+        "y": 100,
+        "wires": [
+            [
+                "795b40f9eb4f0384"
+            ]
+        ]
+    },
+    {
+        "id": "accf5d342f96b4ef",
+        "type": "inject",
+        "z": "b8b9e97420e20a25",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 120,
+        "y": 100,
+        "wires": [
+            [
+                "10dbb38e3b5a34a7"
+            ]
+        ]
+    },
+    {
+        "id": "10dbb38e3b5a34a7",
+        "type": "function",
+        "z": "b8b9e97420e20a25",
+        "name": "function 3",
+        "func": "msg.topic = \"SELECT * FROM test;\"\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 380,
+        "y": 100,
+        "wires": [
+            [
+                "287e077022dfb4e9"
+            ]
+        ]
+    },
+    {
+        "id": "795b40f9eb4f0384",
+        "type": "debug",
+        "z": "b8b9e97420e20a25",
+        "name": "debug 3",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1080,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "39ece6764c83b44c",
+        "type": "function",
+        "z": "b8b9e97420e20a25",
+        "name": "function 4",
+        "func": "msg.topic = \"INSERT INTO `test` (`test`) VALUES ('8');\"\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 380,
+        "y": 180,
+        "wires": [
+            [
+                "fbb57a0fa1d5bbd7"
+            ]
+        ]
+    },
+    {
+        "id": "d518a49473a0db82",
+        "type": "inject",
+        "z": "b8b9e97420e20a25",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 120,
+        "y": 180,
+        "wires": [
+            [
+                "39ece6764c83b44c"
+            ]
+        ]
+    },
+    {
+        "id": "fbb57a0fa1d5bbd7",
+        "type": "mysql",
+        "z": "b8b9e97420e20a25",
+        "mydb": "8d16cabef944a7a1",
+        "name": "test",
+        "x": 650,
+        "y": 180,
+        "wires": [
+            [
+                "e79d955764c7267c"
+            ]
+        ]
+    },
+    {
+        "id": "e79d955764c7267c",
+        "type": "debug",
+        "z": "b8b9e97420e20a25",
+        "name": "debug 4",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 840,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "d3cec8bda13ef5a2",
+        "type": "mysql",
+        "z": "b8b9e97420e20a25",
+        "mydb": "8d16cabef944a7a1",
+        "name": "Donnee",
+        "x": 620,
+        "y": 280,
+        "wires": [
+            [
+                "6b5ec0d89e64e2e7",
+                "3035a4eca3203434"
+            ]
+        ]
+    },
+    {
+        "id": "6b5ec0d89e64e2e7",
+        "type": "debug",
+        "z": "b8b9e97420e20a25",
+        "name": "Valeur Led 0 BDD",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1110,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "9a31a115b31f4c74",
+        "type": "inject",
+        "z": "b8b9e97420e20a25",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 110,
+        "y": 280,
+        "wires": [
+            [
+                "23d8c56af47e99cb"
+            ]
+        ]
+    },
+    {
+        "id": "23d8c56af47e99cb",
+        "type": "function",
+        "z": "b8b9e97420e20a25",
+        "name": "Sent request SQL",
+        "func": "msg.topic = \"SELECT * FROM `Donnee` WHERE `Id_Donnee` = 35\"\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 390,
+        "y": 280,
+        "wires": [
+            [
+                "d3cec8bda13ef5a2"
+            ]
+        ]
+    },
+    {
+        "id": "f624c17bdfdc1092",
+        "type": "function",
+        "z": "b8b9e97420e20a25",
+        "name": "Sent request SQL",
+        "func": "msg.topic = \"SELECT * FROM `Donnee` WHERE `nom_du_capteur` LIKE 'Potentiomètre';\"\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 390,
+        "y": 400,
+        "wires": [
+            [
+                "f9ca6d5d15d8ceb1"
+            ]
+        ]
+    },
+    {
+        "id": "f9ca6d5d15d8ceb1",
+        "type": "mysql",
+        "z": "b8b9e97420e20a25",
+        "mydb": "8d16cabef944a7a1",
+        "name": "Donnee",
+        "x": 620,
+        "y": 400,
+        "wires": [
+            [
+                "c64aac383e142c1a"
+            ]
+        ]
+    },
+    {
+        "id": "c64aac383e142c1a",
+        "type": "debug",
+        "z": "b8b9e97420e20a25",
+        "name": "test I%17.0",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 810,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "180805886830e31f",
+        "type": "ui_switch",
+        "z": "b8b9e97420e20a25",
+        "name": "%I17.0",
+        "label": "switch",
+        "tooltip": "",
+        "group": "c1ff778839f486e5",
+        "order": 48,
+        "width": "3",
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "1",
+        "onvalueType": "num",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "0",
+        "offvalueType": "num",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 100,
+        "y": 400,
+        "wires": [
+            [
+                "f624c17bdfdc1092"
+            ]
+        ]
+    },
+    {
+        "id": "2744dd78b9a0fc7f",
+        "type": "ui_chart",
+        "z": "b8b9e97420e20a25",
+        "name": "",
+        "group": "6af572f4b2f0be45",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "label": "chart",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1130,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3035a4eca3203434",
+        "type": "function",
+        "z": "b8b9e97420e20a25",
+        "name": "Sent request SQL",
+        "func": "msg.payload = msg.payload[0].valeur_capteur\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 870,
+        "y": 280,
+        "wires": [
+            [
+                "2744dd78b9a0fc7f",
+                "18d2c2a960df6ad0"
+            ]
+        ]
+    },
+    {
+        "id": "18d2c2a960df6ad0",
+        "type": "ui_gauge",
+        "z": "b8b9e97420e20a25",
+        "name": "",
+        "group": "6af572f4b2f0be45",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "gauge",
+        "label": "°C",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "33",
+        "seg2": "66",
+        "diff": false,
+        "className": "",
+        "x": 1150,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "0621ce7d049955a8",
+        "type": "mysql",
+        "z": "b8b9e97420e20a25",
+        "mydb": "8d16cabef944a7a1",
+        "name": "Donnee",
+        "x": 620,
+        "y": 240,
+        "wires": [
+            [
+                "8e663d17af8c2d5b"
+            ]
+        ]
+    },
+    {
+        "id": "eab60e0cfc859066",
+        "type": "inject",
+        "z": "b8b9e97420e20a25",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 110,
+        "y": 240,
+        "wires": [
+            [
+                "ededcde49e66fb87"
+            ]
+        ]
+    },
+    {
+        "id": "ededcde49e66fb87",
+        "type": "function",
+        "z": "b8b9e97420e20a25",
+        "name": "Sent request SQL",
+        "func": "msg.topic = \"SELECT * FROM `Donnee` WHERE `Id_Donnee` = 36\"\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 390,
+        "y": 240,
+        "wires": [
+            [
+                "0621ce7d049955a8"
+            ]
+        ]
+    },
+    {
+        "id": "8e663d17af8c2d5b",
+        "type": "function",
+        "z": "b8b9e97420e20a25",
+        "name": "Sent request SQL",
+        "func": "msg.payload = msg.payload[0].valeur_capteur\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 870,
+        "y": 240,
+        "wires": [
+            [
+                "2744dd78b9a0fc7f"
             ]
         ]
     }

@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "node-red-node-mysql": "^2.0.0"
+  }
+}
