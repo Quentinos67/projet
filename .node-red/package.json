@@ -4,7 +4,11 @@
     "version": "0.0.1",
     "private": true,
     "dependencies": {
-        "node-red-dashboard": "~3.5.0",
-        "node-red-node-mysql": "~2.0.0"
+        "@flowfuse/node-red-dashboard-2-ui-led": "~1.0.0",
+        "node-red-contrib-chartjs-line-alt": "~0.0.1",
+        "node-red-contrib-moment": "~5.0.0",
+        "node-red-dashboard": "~3.6.5",
+        "node-red-node-mysql": "~2.0.0",
+        "node-red-node-ui-table": "~0.4.3"
     }
 }

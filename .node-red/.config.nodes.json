@@ -429,7 +429,7 @@
     },
     "node-red-dashboard": {
         "name": "node-red-dashboard",
-        "version": "3.5.0",
+        "version": "3.6.5",
         "local": true,
         "user": true,
         "nodes": {
@@ -683,6 +683,93 @@
                 "user": false,
                 "module": "node-red-node-mysql",
                 "file": "/home/quentin/.node-red/node_modules/node-red-node-mysql/68-mysql.js"
+            }
+        }
+    },
+    "@flowfuse/node-red-dashboard-2-ui-led": {
+        "name": "@flowfuse/node-red-dashboard-2-ui-led",
+        "version": "1.0.0",
+        "local": true,
+        "user": true,
+        "nodes": {
+            "ui-led": {
+                "name": "ui-led",
+                "types": [
+                    "ui-led"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "@flowfuse/node-red-dashboard-2-ui-led",
+                "file": "/home/quentin/.node-red/node_modules/@flowfuse/node-red-dashboard-2-ui-led/nodes/ui-led.js"
+            }
+        }
+    },
+    "node-red-contrib-chartjs-line-alt": {
+        "name": "node-red-contrib-chartjs-line-alt",
+        "version": "0.0.1",
+        "local": true,
+        "user": true,
+        "nodes": {
+            "chartjs-line-alt": {
+                "name": "chartjs-line-alt",
+                "types": [
+                    "chartjs-line-alt"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-chartjs-line-alt",
+                "file": "/home/quentin/.node-red/node_modules/node-red-contrib-chartjs-line-alt/chartjs-line-alt/chartjs-line-alt.js"
+            }
+        }
+    },
+    "node-red-node-ui-table": {
+        "name": "node-red-node-ui-table",
+        "version": "0.4.3",
+        "local": true,
+        "user": true,
+        "nodes": {
+            "ui_table": {
+                "name": "ui_table",
+                "types": [
+                    "ui_table"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-node-ui-table",
+                "file": "/home/quentin/.node-red/node_modules/node-red-node-ui-table/node.js"
+            }
+        }
+    },
+    "node-red-contrib-moment": {
+        "name": "node-red-contrib-moment",
+        "version": "5.0.0",
+        "local": true,
+        "user": true,
+        "nodes": {
+            "moment": {
+                "name": "moment",
+                "types": [
+                    "moment"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-moment",
+                "file": "/home/quentin/.node-red/node_modules/node-red-contrib-moment/moment/nrmoment.js"
+            },
+            "humanizer": {
+                "name": "humanizer",
+                "types": [
+                    "humanizer"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-moment",
+                "file": "/home/quentin/.node-red/node_modules/node-red-contrib-moment/moment/nrhumanizer.js"
             }
         }
     }
