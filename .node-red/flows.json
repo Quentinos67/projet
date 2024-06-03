@@ -78,7 +78,7 @@
             },
             "darkTheme": {
                 "default": "#097479",
-                "baseColor": "#ff00e3",
+                "baseColor": "#097479",
                 "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
                 "edited": true,
                 "reset": false
@@ -406,119 +406,33 @@
     {
         "id": "d59191f573ee1d63",
         "type": "ui_tab",
-        "name": "Tab 2",
+        "name": "Visualisation BDD ",
         "icon": "dashboard",
-        "order": 2
+        "order": 2,
+        "disabled": false,
+        "hidden": false
     },
     {
         "id": "6af572f4b2f0be45",
         "type": "ui_group",
-        "name": "Visualisation BDD",
+        "name": "Visualisation BDD ",
         "tab": "d59191f573ee1d63",
         "order": 1,
         "disp": true,
-        "width": 20,
+        "width": "20",
         "collapse": false,
         "className": ""
-    },
-    {
-        "id": "8b5cde76.edd7b",
-        "type": "ui_group",
-        "name": "Group 1",
-        "tab": "a2e3a9e1.1f1d58",
-        "order": 1,
-        "disp": true,
-        "width": 28,
-        "collapse": false
-    },
-    {
-        "id": "a2e3a9e1.1f1d58",
-        "type": "ui_tab",
-        "name": "Tab 1",
-        "icon": "dashboard",
-        "order": 1,
-        "disabled": false,
-        "hidden": false
     },
     {
         "id": "a6fcbd823f30f87a",
         "type": "ui_spacer",
         "z": "b8b9e97420e20a25",
+        "d": true,
         "name": "spacer",
         "group": "bf33cac3e3dbfcb0",
         "order": 2,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "6902d01a757f6397",
-        "type": "ui_spacer",
-        "z": "b8b9e97420e20a25",
-        "name": "spacer",
-        "group": "6af572f4b2f0be45",
-        "order": 6,
-        "width": 20,
-        "height": 1
-    },
-    {
-        "id": "353e5622721ad2da",
-        "type": "ui_spacer",
-        "z": "b8b9e97420e20a25",
-        "name": "spacer",
-        "group": "6af572f4b2f0be45",
-        "order": 7,
-        "width": 20,
-        "height": 1
-    },
-    {
-        "id": "361207e6822d337c",
-        "type": "ui_spacer",
-        "z": "b8b9e97420e20a25",
-        "name": "spacer",
-        "group": "6af572f4b2f0be45",
-        "order": 8,
-        "width": 20,
-        "height": 1
-    },
-    {
-        "id": "d4a1b55927074db9",
-        "type": "ui_spacer",
-        "z": "b8b9e97420e20a25",
-        "name": "spacer",
-        "group": "6af572f4b2f0be45",
-        "order": 9,
-        "width": 20,
-        "height": 1
-    },
-    {
-        "id": "f87899e760a1bb78",
-        "type": "ui_spacer",
-        "z": "b8b9e97420e20a25",
-        "name": "spacer",
-        "group": "6af572f4b2f0be45",
-        "order": 10,
-        "width": 20,
-        "height": 1
-    },
-    {
-        "id": "8c95b0229706e0ee",
-        "type": "ui_spacer",
-        "z": "b8b9e97420e20a25",
-        "name": "spacer",
-        "group": "6af572f4b2f0be45",
-        "order": 11,
-        "width": 20,
-        "height": 1
-    },
-    {
-        "id": "6847834f8987b817",
-        "type": "ui_spacer",
-        "z": "b8b9e97420e20a25",
-        "name": "spacer",
-        "group": "6af572f4b2f0be45",
-        "order": 12,
-        "width": 20,
-        "height": 1
+        "width": "",
+        "height": ""
     },
     {
         "id": "f48b91f55dc0e747",
@@ -1473,7 +1387,8 @@
         "y": 3660,
         "wires": [
             [
-                "f9bd9e0f34ed5fea"
+                "f9bd9e0f34ed5fea",
+                "060d7b02a56613ab"
             ]
         ]
     },
@@ -2767,7 +2682,7 @@
         "type": "function",
         "z": "a3eb30eb28df6688",
         "name": "Set Buffer 10",
-        "func": "var msgmqtt = global.get('msgmqtt') || {};\nif ((msgmqtt[0] != 48) && (msgmqtt[0] != 49)) // exists \n{\n    var i;\n    msgmqtt = Buffer.alloc(13);\n    for (i = 0; i < 13; i++) {\n        msgmqtt[i] = 48;\n    }\n\n    global.set(\"msgmqtt\", msgmqtt);\n\n}\nmsgmqtt[10] = msg.payload+48;\n \n\nglobal.set(\"msgmqtt\", msgmqtt);\n\n\nreturn msg; ",
+        "func": "var msgmqtt = global.get('msgmqtt') || {};\nif ((msgmqtt[0] != 48) && (msgmqtt[0] != 49)) // exists \n{\n    var i;\n    msgmqtt = Buffer.alloc(13);\n    for (i = 0; i < 13; i++) {\n        msgmqtt[i] = 48;\n    }\n\n    global.set(\"msgmqtt\", msgmqtt);\n\n}\nmsgmqtt[10] = msg.payload;\n \n\nglobal.set(\"msgmqtt\", msgmqtt);\n\n\nreturn msg; ",
         "outputs": 1,
         "timeout": "",
         "noerr": 0,
@@ -3838,6 +3753,7 @@
         "id": "e2a5189de0dc07d5",
         "type": "ui_switch",
         "z": "a3eb30eb28df6688",
+        "d": true,
         "name": "%I17.0",
         "label": "switch",
         "tooltip": "",
@@ -4554,7 +4470,7 @@
         "z": "a3eb30eb28df6688",
         "mydb": "8d16cabef944a7a1",
         "name": "Donnee",
-        "x": 620,
+        "x": 640,
         "y": 5020,
         "wires": [
             [
@@ -4566,14 +4482,14 @@
         "id": "575de21d5ce685d6",
         "type": "template",
         "z": "a3eb30eb28df6688",
-        "name": "",
+        "name": "Sent request SQL variable",
         "field": "topic",
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
         "template": "INSERT INTO `Donnee` (horodatage, nom_du_capteur, valeur_capteur) VALUES (NOW(), 'Potentiomètre', {{payload}});",
         "output": "str",
-        "x": 440,
+        "x": 420,
         "y": 5020,
         "wires": [
             [
@@ -4644,14 +4560,14 @@
         "id": "dfe496bd8a2b0e12",
         "type": "template",
         "z": "a3eb30eb28df6688",
-        "name": "",
+        "name": "Sent request SQL variable",
         "field": "topic",
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
         "template": "INSERT INTO `Donnee` (horodatage, nom_du_capteur, valeur_capteur) VALUES (NOW(), 'Potar D', {{payload}});",
         "output": "str",
-        "x": 640,
+        "x": 600,
         "y": 3420,
         "wires": [
             [
@@ -4694,14 +4610,14 @@
         "id": "e550918dfac3056f",
         "type": "template",
         "z": "a3eb30eb28df6688",
-        "name": "",
+        "name": "Sent request SQL variable",
         "field": "topic",
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
         "template": "INSERT INTO `Donnee` (horodatage, nom_du_capteur, valeur_capteur) VALUES (NOW(), 'Potar G', {{payload}});",
         "output": "str",
-        "x": 660,
+        "x": 620,
         "y": 3100,
         "wires": [
             [
@@ -4710,87 +4626,21 @@
         ]
     },
     {
-        "id": "d3cec8bda13ef5a2",
-        "type": "mysql",
-        "z": "b8b9e97420e20a25",
-        "mydb": "8d16cabef944a7a1",
-        "name": "Donnee",
-        "x": 540,
-        "y": 280,
-        "wires": [
-            [
-                "3035a4eca3203434"
-            ]
-        ]
-    },
-    {
-        "id": "9a31a115b31f4c74",
-        "type": "inject",
-        "z": "b8b9e97420e20a25",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 110,
-        "y": 280,
-        "wires": [
-            [
-                "23d8c56af47e99cb"
-            ]
-        ]
-    },
-    {
-        "id": "23d8c56af47e99cb",
-        "type": "function",
-        "z": "b8b9e97420e20a25",
-        "name": "Sent request SQL",
-        "func": "msg.topic = \"SELECT * FROM `Donnee` WHERE `Id_Donnee` = 250\"\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 330,
-        "y": 280,
-        "wires": [
-            [
-                "d3cec8bda13ef5a2"
-            ]
-        ]
-    },
-    {
-        "id": "3035a4eca3203434",
-        "type": "function",
-        "z": "b8b9e97420e20a25",
-        "name": "Sent request SQL",
-        "func": "msg.payload = msg.payload[0].horodatage\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 750,
-        "y": 280,
-        "wires": [
-            [
-                "a976b15e419b5017"
-            ]
-        ]
+        "id": "060d7b02a56613ab",
+        "type": "debug",
+        "z": "a3eb30eb28df6688",
+        "name": "debug 23",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 510,
+        "y": 3720,
+        "wires": []
     },
     {
         "id": "735c516b8de77b19",
@@ -4814,7 +4664,7 @@
                 "label": "Start Time",
                 "value": "Start Time",
                 "type": "time",
-                "required": false,
+                "required": true,
                 "rows": null
             },
             {
@@ -4828,7 +4678,7 @@
                 "label": "End Time",
                 "value": "End Time",
                 "type": "time",
-                "required": false,
+                "required": true,
                 "rows": null
             }
         ],
@@ -4859,64 +4709,22 @@
         "type": "ui_table",
         "z": "b8b9e97420e20a25",
         "group": "6af572f4b2f0be45",
-        "name": "",
+        "name": "Tableau donnée",
         "order": 2,
         "width": 20,
         "height": 7,
         "columns": [],
         "outputs": 0,
         "cts": false,
-        "x": 1130,
+        "x": 1240,
         "y": 520,
         "wires": []
-    },
-    {
-        "id": "6eaeb459a8a1ee11",
-        "type": "debug",
-        "z": "b8b9e97420e20a25",
-        "name": "debug 9",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1220,
-        "y": 280,
-        "wires": []
-    },
-    {
-        "id": "a976b15e419b5017",
-        "type": "moment",
-        "z": "b8b9e97420e20a25",
-        "name": "",
-        "topic": "",
-        "input": "payload",
-        "inputType": "msg",
-        "inTz": "Europe/Paris",
-        "adjAmount": "0",
-        "adjType": "hours",
-        "adjDir": "add",
-        "format": "DD/MM/YYYY, hh:mm:ss",
-        "locale": "fr-FR",
-        "output": "payload",
-        "outputType": "msg",
-        "outTz": "Europe/Paris",
-        "x": 1000,
-        "y": 280,
-        "wires": [
-            [
-                "6eaeb459a8a1ee11"
-            ]
-        ]
     },
     {
         "id": "6d6a0be834346c01",
         "type": "function",
         "z": "b8b9e97420e20a25",
-        "name": "function 8",
+        "name": "Split message",
         "func": "msg.StartDate = msg.payload['Start Date'];\nmsg.StartTime = msg.payload['Start Time'];\nmsg.EndDate = msg.payload['End Date']\nmsg.EndTime = msg.payload['End Time']\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
@@ -4924,7 +4732,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 260,
+        "x": 240,
         "y": 400,
         "wires": [
             [
@@ -4937,7 +4745,7 @@
         "id": "a544a8aca0ec6232",
         "type": "moment",
         "z": "b8b9e97420e20a25",
-        "name": "",
+        "name": "StartDate Formatter",
         "topic": "",
         "input": "StartDate",
         "inputType": "msg",
@@ -4962,7 +4770,7 @@
         "id": "156ee08f90f39601",
         "type": "moment",
         "z": "b8b9e97420e20a25",
-        "name": "",
+        "name": "StartTime Formatter",
         "topic": "",
         "input": "StartTime",
         "inputType": "msg",
@@ -4970,7 +4778,7 @@
         "adjAmount": "0",
         "adjType": "hours",
         "adjDir": "add",
-        "format": "kk:mm:ss",
+        "format": "HH:mm:ss",
         "locale": "fr-FR",
         "output": "StartTime",
         "outputType": "msg",
@@ -4988,7 +4796,7 @@
         "type": "debug",
         "z": "b8b9e97420e20a25",
         "name": "debug 10",
-        "active": false,
+        "active": true,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -5003,7 +4811,7 @@
         "id": "3bc03f83e2c7315c",
         "type": "moment",
         "z": "b8b9e97420e20a25",
-        "name": "",
+        "name": "EndDate Formatter",
         "topic": "",
         "input": "EndDate",
         "inputType": "msg",
@@ -5016,7 +4824,7 @@
         "output": "EndDate",
         "outputType": "msg",
         "outTz": "Europe/Paris",
-        "x": 540,
+        "x": 530,
         "y": 480,
         "wires": [
             [
@@ -5028,7 +4836,7 @@
         "id": "7457cabe59ce711c",
         "type": "moment",
         "z": "b8b9e97420e20a25",
-        "name": "",
+        "name": "EndTime Formatter",
         "topic": "",
         "input": "EndTime",
         "inputType": "msg",
@@ -5036,12 +4844,12 @@
         "adjAmount": "59",
         "adjType": "seconds",
         "adjDir": "add",
-        "format": "kk:mm:ss",
+        "format": "HH:mm:ss",
         "locale": "fr-FR",
         "output": "EndTime",
         "outputType": "msg",
         "outTz": "Europe/Paris",
-        "x": 580,
+        "x": 570,
         "y": 520,
         "wires": [
             [
@@ -5090,7 +4898,7 @@
         "z": "b8b9e97420e20a25",
         "mydb": "8d16cabef944a7a1",
         "name": "Donnee",
-        "x": 960,
+        "x": 1000,
         "y": 520,
         "wires": [
             [
@@ -5138,7 +4946,7 @@
         "id": "7c96f29b0548d573",
         "type": "function",
         "z": "b8b9e97420e20a25",
-        "name": "function 10",
+        "name": "Sent request SQL",
         "func": "var StartDate = msg.StartDate;\nvar StartTime = msg.StartTime;\nvar EndDate = msg.EndDate;\nvar EndTime = msg.EndTime;\nvar Start = StartDate + \" \" + StartTime;\nvar End = EndDate + \" \" + EndTime;\n\nmsg.topic = \"SELECT DATE_FORMAT(`horodatage`, '%d-%m-%Y %H:%i:%s') AS 'Heure/Date', `nom_du_capteur`, `valeur_capteur` FROM `Donnee` WHERE `horodatage` >= ' \" + Start + \" ' and `horodatage` <= ' \" + End + \" ' \";\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
@@ -5146,7 +4954,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 790,
+        "x": 810,
         "y": 520,
         "wires": [
             [
@@ -5175,11 +4983,12 @@
         "payloadType": "json",
         "topic": "topic",
         "topicType": "msg",
-        "x": 950,
-        "y": 460,
+        "x": 1010,
+        "y": 440,
         "wires": [
             [
-                "9091c55dd5ced673"
+                "9091c55dd5ced673",
+                "72b02c96120988f5"
             ]
         ]
     },
@@ -5196,7 +5005,7 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1480,
+        "x": 1460,
         "y": 1020,
         "wires": []
     },
@@ -5204,20 +5013,19 @@
         "id": "2cc22929a47b82b3",
         "type": "ui_template",
         "z": "b8b9e97420e20a25",
-        "d": true,
         "group": "",
         "name": "Node-Red Dashboard Custom CSS",
         "order": 1,
         "width": 0,
         "height": 0,
-        "format": "<style>\n\nbody {\nbackground: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);\nbackground-size: 400% 400%;\nanimation: gradient 15s ease infinite;\nheight: 100vh;\n}\n\n@keyframes gradient {\n0% {\nbackground-position: 0% 50%;\n}\n50% {\nbackground-position: 100% 50%;\n}\n100% {\nbackground-position: 0% 50%;\n}\n}\n\n    /*Top bar*/\n    body.nr-dashboard-theme md-toolbar,\n    body.nr-dashboard-theme md-content md-card {\n        background-color: transparent !important;\n        color: #FFFFFF !important;\n    }\n\n\n    /*Left menu*/\n    /*Sidebar*/\n    body.nr-dashboard-theme md-sidenav {\n        color: white !important;\n        background-color: rgba(0,0,0,0) !important;\n    }\n    /*Hover selection*/\n    a.md-no-style, button.md-no-style {\n        border-radius: 10px !important;\n    }\n    /*Selected*/\n    .nr-menu-item-active div button {\n        border-right: 4px solid rgb(41 98 255) !important;\n    }\n    /*List*/\n    body.nr-dashboard-theme md-sidenav div.md-list-item-inner {\n        color: white !important;\n        background-color: rgba(40,85,165,1) !important;\n        border-radius: 10px !important;\n    }\n\n\n    /*Groups*/\n    ui-card-panel {\n        background-color: rgba(255,255,255,0.1) !important;\n        border-radius: 10px !important;\n    }\n    .nr-dashboard-theme ui-card-panel {\n        border: none !important;\n    }\n    /*Name groups*/\n    .nr-dashboard-theme ui-card-panel p.nr-dashboard-cardtitle {\n        color: rgba(255, 255, 255, 0.5) !important;\n    }\n\n\n    /*Bouttons*/\n    .nr-dashboard-theme .nr-dashboard-button .md-button {\n        background-color: rgba(255,255,255,.1) !important;\n    }\n    .md-button {\n        border-radius: 10px !important;\n    }\n\n\n    /*Dropdown menu*/\n    .nr-dashboard-theme md-select-menu{\n        background-color: rgba(40,85,165,1) !important;\n    }\n    .nr-dashboard-theme md-select-menu, .nr-dashboard-theme md-select-menu md-option {\n        background-color: transparent !important;\n    }\n    .nr-dashboard-theme .md-select-menu-container {\n        border-radius: 10px !important;\n        border: none !important;\n    }\n    .nr-dashboard-theme md-select-menu md-option[selected] {\n        color: white !important;\n        background-color: #1a3566 !important;\n    }\n\n    /*Template*/\n    md-card>img, md-card>md-card-header img, md-card md-card-title-media img {\n        border-radius: 10px !important;\n    }\n\n    /* Color picker text BG */\n    .nr-dashboard-theme .color-picker-input-wrapper > input {\n        color: white !important;\n        background-color: transparent !important;\n    }\n\n\n</style>",
+        "format": "<style>\n\nbody, body.nr-dashboard-theme md-toolbar{\n    background: rgb(0,33,255);\n    background: linear-gradient(90deg, rgba(0,33,255,1) 0%, rgba(255,255,255,1) 50%, rgba(255,0,0,1) 100%);\n}\n</style>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": false,
-        "templateScope": "global",
+        "templateScope": "local",
         "className": "",
-        "x": 480,
-        "y": 780,
+        "x": 340,
+        "y": 860,
         "wires": [
             []
         ]
@@ -5235,7 +5043,7 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1220,
+        "x": 1140,
         "y": 1020,
         "wires": []
     },
@@ -5244,7 +5052,7 @@
         "type": "ui_dropdown",
         "z": "b8b9e97420e20a25",
         "name": "",
-        "label": "Select Sensors",
+        "label": "Choix capteur Input",
         "tooltip": "",
         "place": "Select sensor",
         "group": "6af572f4b2f0be45",
@@ -5270,13 +5078,58 @@
                 "type": "str"
             },
             {
-                "label": "%Q8.0",
-                "value": "%Q8.0",
+                "label": "%I16.0",
+                "value": "%I16.0",
                 "type": "str"
             },
             {
-                "label": "Moteur_Horaire",
-                "value": "Moteur_Horaire",
+                "label": "%I16.1",
+                "value": "%I16.1",
+                "type": "str"
+            },
+            {
+                "label": "%I16.2",
+                "value": "%I16.2",
+                "type": "str"
+            },
+            {
+                "label": "%I16.3",
+                "value": "%I16.3",
+                "type": "str"
+            },
+            {
+                "label": "%I16.4",
+                "value": "%I16.4",
+                "type": "str"
+            },
+            {
+                "label": "%I16.5",
+                "value": "%I16.5",
+                "type": "str"
+            },
+            {
+                "label": "%I16.6",
+                "value": "%I16.6",
+                "type": "str"
+            },
+            {
+                "label": "%I16.7",
+                "value": "%I16.7",
+                "type": "str"
+            },
+            {
+                "label": "%I17.0",
+                "value": "%I17.0",
+                "type": "str"
+            },
+            {
+                "label": "%I17.1",
+                "value": "%I17.1",
+                "type": "str"
+            },
+            {
+                "label": "%I17.2",
+                "value": "%I17.2",
                 "type": "str"
             }
         ],
@@ -5284,7 +5137,7 @@
         "topic": "topic",
         "topicType": "msg",
         "className": "",
-        "x": 480,
+        "x": 430,
         "y": 1060,
         "wires": [
             [
@@ -5296,14 +5149,14 @@
         "id": "72b02c96120988f5",
         "type": "file",
         "z": "b8b9e97420e20a25",
-        "name": "test.json",
-        "filename": "/home/quentin/Documents/projet/test.json",
+        "name": "recherche_tampon.json",
+        "filename": "/home/quentin/Documents/projet/recherche_tampon.json",
         "filenameType": "str",
         "appendNewline": true,
         "createDir": false,
         "overwriteFile": "true",
         "encoding": "none",
-        "x": 1160,
+        "x": 1270,
         "y": 600,
         "wires": [
             []
@@ -5313,15 +5166,15 @@
         "id": "2f944cddcf8dcfaf",
         "type": "file in",
         "z": "b8b9e97420e20a25",
-        "name": "text.json",
-        "filename": "/home/quentin/Documents/projet/test.json",
+        "name": "recherche_tampon.json",
+        "filename": "/home/quentin/Documents/projet/recherche_tampon.json",
         "filenameType": "str",
         "format": "utf8",
         "chunk": false,
         "sendError": false,
         "encoding": "none",
         "allProps": false,
-        "x": 980,
+        "x": 910,
         "y": 1060,
         "wires": [
             [
@@ -5334,17 +5187,17 @@
         "id": "e380d714513f1e8e",
         "type": "ui_chart",
         "z": "b8b9e97420e20a25",
-        "name": "Graphique",
+        "name": "",
         "group": "6af572f4b2f0be45",
         "order": 5,
         "width": 0,
         "height": 0,
-        "label": "",
+        "label": "Input",
         "chartType": "line",
         "legend": "false",
-        "xformat": "YYYY-MM-DD kk:mm:ss",
+        "xformat": "YYYY-MM-DD HH:mm:ss",
         "interpolate": "linear",
-        "nodata": "",
+        "nodata": "Graphique Input",
         "dot": true,
         "ymin": "",
         "ymax": "",
@@ -5367,8 +5220,8 @@
         ],
         "outputs": 1,
         "useDifferentColor": false,
-        "className": "test_1",
-        "x": 1490,
+        "className": "",
+        "x": 1470,
         "y": 1080,
         "wires": [
             []
@@ -5378,15 +5231,15 @@
         "id": "808a46d6b7718475",
         "type": "function",
         "z": "b8b9e97420e20a25",
-        "name": "function 13",
-        "func": "// Déclarez une variable et assignez-lui la valeur que vous souhaitez utiliser pour le filtrage\nlet nomDuCapteur = msg.capteur; // Remplacez \"capteur\" par la valeur que vous souhaitez utiliser\n\n\n// Fonction pour convertir une date au format \"DD-MM-YYYY HH:mm:ss\" en timestamp\nfunction convertToTimestamp(dateStr) {\n    let parts = dateStr.match(/(\\d{2})-(\\d{2})-(\\d{4}) (\\d{2}):(\\d{2}):(\\d{2})/);\n    if (parts && parts.length === 7) {\n        // Notez que les mois sont indexés à partir de 0 en JavaScript\n        let date = new Date(parts[3], parts[2] - 1, parts[1], parts[4], parts[5], parts[6]);\n        return date.getTime();\n    } else {\n        return null;\n    }\n}\n\n// Assurez-vous que msg.payload est un tableau d'objets\nif (typeof msg.payload === \"string\") {\n    msg.payload = JSON.parse(msg.payload);\n}\n\n// Filtrez les données pour le capteur spécifié et convertissez les dates\nlet filteredData = msg.payload.filter(item => item.nom_du_capteur === nomDuCapteur).map(item => {\n    return {\n        x: convertToTimestamp(item[\"Heure/Date\"]),\n        y: item.valeur_capteur\n    };\n});\n\n// Préparez le payload pour le nœud ui_chart\nmsg.payload = [{\n    series: [nomDuCapteur],\n    data: [filteredData],\n    labels: [nomDuCapteur]\n}];\n\nreturn msg;",
+        "name": "Filtre / Mise en forme des données",
+        "func": "let initialisation = { payload: [] };\n// Envoie un message d'initialisation\nnode.send(initialisation);\n\n// Déclare une variable et lui assignez la valeur que l'on souhaite utiliser pour le filtrage\nlet nomDuCapteur = msg.capteur;\n\n\n// Fonction pour convertir une date au format \"DD-MM-YYYY HH:mm:ss\" en timestamp\nfunction convertToTimestamp(dateStr) {\n    let parts = dateStr.match(/(\\d{2})-(\\d{2})-(\\d{4}) (\\d{2}):(\\d{2}):(\\d{2})/);\n    if (parts && parts.length === 7) {\n        // A notez que les mois sont indexés à partir de 0 en JavaScript\n        let date = new Date(parts[3], parts[2] - 1, parts[1], parts[4], parts[5], parts[6]);\n        return date.getTime();\n    } else {\n        return null;\n    }\n}\n\n// S'assure que msg.payload est un tableau d'objets\nif (typeof msg.payload === \"string\") {\n    msg.payload = JSON.parse(msg.payload);\n}\n\n// Filtre les données pour le capteur spécifié et convertis les dates\nlet filteredData = msg.payload.filter(item => item.nom_du_capteur === nomDuCapteur).map(item => {\n    return {\n        x: convertToTimestamp(item[\"Heure/Date\"]),\n        y: item.valeur_capteur\n    };\n});\n\n// Prépare le payload pour le nœud ui_chart\nmsg.payload = [{\n    series: [nomDuCapteur],\n    data: [filteredData],\n    labels: [nomDuCapteur]\n}];\n\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1230,
+        "x": 1220,
         "y": 1080,
         "wires": [
             [
@@ -5399,7 +5252,7 @@
         "id": "8ddbabb2da4a49f3",
         "type": "change",
         "z": "b8b9e97420e20a25",
-        "name": "",
+        "name": "déplacer msg.payload",
         "rules": [
             {
                 "t": "move",
@@ -5414,7 +5267,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 740,
+        "x": 660,
         "y": 1060,
         "wires": [
             [
@@ -5423,31 +5276,227 @@
         ]
     },
     {
-        "id": "76a8b0e4a1236491",
-        "type": "inject",
+        "id": "fdfafdcf12d0a360",
+        "type": "debug",
+        "z": "b8b9e97420e20a25",
+        "name": "debug 21",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1480,
+        "y": 1340,
+        "wires": []
+    },
+    {
+        "id": "035fa91579ad6d94",
+        "type": "debug",
+        "z": "b8b9e97420e20a25",
+        "name": "debug 22",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1140,
+        "y": 1340,
+        "wires": []
+    },
+    {
+        "id": "17711421d3414978",
+        "type": "ui_dropdown",
         "z": "b8b9e97420e20a25",
         "name": "",
-        "props": [
+        "label": "Choix capteur Output",
+        "tooltip": "",
+        "place": "Select sensor",
+        "group": "6af572f4b2f0be45",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "multiple": false,
+        "options": [
             {
-                "p": "payload"
+                "label": "%Q8.0",
+                "value": "%Q8.0",
+                "type": "str"
             },
             {
-                "p": "topic",
-                "vt": "str"
+                "label": "%Q8.1",
+                "value": "%Q8.1",
+                "type": "str"
+            },
+            {
+                "label": "%Q8.2",
+                "value": "%Q8.2",
+                "type": "str"
+            },
+            {
+                "label": "%Q8.3",
+                "value": "%Q8.3",
+                "type": "str"
+            },
+            {
+                "label": "%Q8.4",
+                "value": "%Q8.4",
+                "type": "str"
+            },
+            {
+                "label": "%Q8.5",
+                "value": "%Q8.5",
+                "type": "str"
+            },
+            {
+                "label": "%Q8.6",
+                "value": "%Q8.6",
+                "type": "str"
+            },
+            {
+                "label": "%Q8.7",
+                "value": "%Q8.7",
+                "type": "str"
+            },
+            {
+                "label": "Moteur_Horaire",
+                "value": "Moteur_Horaire",
+                "type": "str"
+            },
+            {
+                "label": "Moteur_Antihoraire",
+                "value": "Moteur_Antihoraire",
+                "type": "str"
             }
         ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "[]",
-        "payloadType": "jsonata",
-        "x": 1290,
-        "y": 1240,
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 420,
+        "y": 1380,
         "wires": [
             [
-                "e380d714513f1e8e"
+                "8851b7845677ea8c"
+            ]
+        ]
+    },
+    {
+        "id": "40c05a033027d612",
+        "type": "file in",
+        "z": "b8b9e97420e20a25",
+        "name": "recherche_tampon.json",
+        "filename": "/home/quentin/Documents/projet/recherche_tampon.json",
+        "filenameType": "str",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 910,
+        "y": 1380,
+        "wires": [
+            [
+                "035fa91579ad6d94",
+                "333b8e1ae83147c1"
+            ]
+        ]
+    },
+    {
+        "id": "06367ebdbfb0dca6",
+        "type": "ui_chart",
+        "z": "b8b9e97420e20a25",
+        "name": "",
+        "group": "6af572f4b2f0be45",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "label": "Output",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "YYYY-MM-DD HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "Graphique Output",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "999999999999",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1470,
+        "y": 1400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "333b8e1ae83147c1",
+        "type": "function",
+        "z": "b8b9e97420e20a25",
+        "name": "Filtre / Mise en forme des données",
+        "func": "let initialisation = { payload: [] };\n// Envoie un message d'initialisation\nnode.send(initialisation);\n\n// Déclare une variable et lui assignez la valeur que l'on souhaite utiliser pour le filtrage\nlet nomDuCapteur = msg.capteur;\n\n\n// Fonction pour convertir une date au format \"DD-MM-YYYY HH:mm:ss\" en timestamp\nfunction convertToTimestamp(dateStr) {\n    let parts = dateStr.match(/(\\d{2})-(\\d{2})-(\\d{4}) (\\d{2}):(\\d{2}):(\\d{2})/);\n    if (parts && parts.length === 7) {\n        // A notez que les mois sont indexés à partir de 0 en JavaScript\n        let date = new Date(parts[3], parts[2] - 1, parts[1], parts[4], parts[5], parts[6]);\n        return date.getTime();\n    } else {\n        return null;\n    }\n}\n\n// S'assure que msg.payload est un tableau d'objets\nif (typeof msg.payload === \"string\") {\n    msg.payload = JSON.parse(msg.payload);\n}\n\n// Filtre les données pour le capteur spécifié et convertis les dates\nlet filteredData = msg.payload.filter(item => item.nom_du_capteur === nomDuCapteur).map(item => {\n    return {\n        x: convertToTimestamp(item[\"Heure/Date\"]),\n        y: item.valeur_capteur\n    };\n});\n\n// Prépare le payload pour le nœud ui_chart\nmsg.payload = [{\n    series: [nomDuCapteur],\n    data: [filteredData],\n    labels: [nomDuCapteur]\n}];\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1220,
+        "y": 1400,
+        "wires": [
+            [
+                "06367ebdbfb0dca6",
+                "fdfafdcf12d0a360"
+            ]
+        ]
+    },
+    {
+        "id": "8851b7845677ea8c",
+        "type": "change",
+        "z": "b8b9e97420e20a25",
+        "name": "déplacer msg.payload",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload",
+                "pt": "msg",
+                "to": "capteur",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 660,
+        "y": 1380,
+        "wires": [
+            [
+                "40c05a033027d612"
             ]
         ]
     }
