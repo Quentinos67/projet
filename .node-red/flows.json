@@ -4696,7 +4696,7 @@
         "splitLayout": "",
         "className": "",
         "x": 70,
-        "y": 400,
+        "y": 100,
         "wires": [
             [
                 "6d6a0be834346c01",
@@ -4717,7 +4717,7 @@
         "outputs": 0,
         "cts": false,
         "x": 1240,
-        "y": 520,
+        "y": 220,
         "wires": []
     },
     {
@@ -4733,7 +4733,7 @@
         "finalize": "",
         "libs": [],
         "x": 240,
-        "y": 400,
+        "y": 100,
         "wires": [
             [
                 "a544a8aca0ec6232",
@@ -4759,7 +4759,7 @@
         "outputType": "msg",
         "outTz": "Europe/Paris",
         "x": 460,
-        "y": 400,
+        "y": 100,
         "wires": [
             [
                 "156ee08f90f39601"
@@ -4784,7 +4784,7 @@
         "outputType": "msg",
         "outTz": "Europe/Paris",
         "x": 500,
-        "y": 440,
+        "y": 140,
         "wires": [
             [
                 "3bc03f83e2c7315c"
@@ -4804,7 +4804,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 260,
-        "y": 580,
+        "y": 280,
         "wires": []
     },
     {
@@ -4825,7 +4825,7 @@
         "outputType": "msg",
         "outTz": "Europe/Paris",
         "x": 530,
-        "y": 480,
+        "y": 180,
         "wires": [
             [
                 "7457cabe59ce711c"
@@ -4850,7 +4850,7 @@
         "outputType": "msg",
         "outTz": "Europe/Paris",
         "x": 570,
-        "y": 520,
+        "y": 220,
         "wires": [
             [
                 "8d4a2120faf1ca65",
@@ -4872,7 +4872,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 460,
-        "y": 680,
+        "y": 380,
         "wires": []
     },
     {
@@ -4889,7 +4889,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 780,
-        "y": 680,
+        "y": 380,
         "wires": []
     },
     {
@@ -4899,7 +4899,7 @@
         "mydb": "8d16cabef944a7a1",
         "name": "Donnee",
         "x": 1000,
-        "y": 520,
+        "y": 220,
         "wires": [
             [
                 "9091c55dd5ced673",
@@ -4922,7 +4922,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 980,
-        "y": 680,
+        "y": 380,
         "wires": []
     },
     {
@@ -4939,7 +4939,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 1160,
-        "y": 680,
+        "y": 380,
         "wires": []
     },
     {
@@ -4955,7 +4955,7 @@
         "finalize": "",
         "libs": [],
         "x": 810,
-        "y": 520,
+        "y": 220,
         "wires": [
             [
                 "f74696399430d7ef",
@@ -4984,7 +4984,7 @@
         "topic": "topic",
         "topicType": "msg",
         "x": 1010,
-        "y": 440,
+        "y": 140,
         "wires": [
             [
                 "9091c55dd5ced673",
@@ -5005,15 +5005,16 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1460,
-        "y": 1020,
+        "x": 1140,
+        "y": 500,
         "wires": []
     },
     {
         "id": "2cc22929a47b82b3",
         "type": "ui_template",
         "z": "b8b9e97420e20a25",
-        "group": "",
+        "d": true,
+        "group": "6af572f4b2f0be45",
         "name": "Node-Red Dashboard Custom CSS",
         "order": 1,
         "width": 0,
@@ -5022,10 +5023,10 @@
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": false,
-        "templateScope": "local",
+        "templateScope": "global",
         "className": "",
-        "x": 340,
-        "y": 860,
+        "x": 160,
+        "y": 1320,
         "wires": [
             []
         ]
@@ -5043,8 +5044,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1140,
-        "y": 1020,
+        "x": 820,
+        "y": 500,
         "wires": []
     },
     {
@@ -5137,8 +5138,8 @@
         "topic": "topic",
         "topicType": "msg",
         "className": "",
-        "x": 430,
-        "y": 1060,
+        "x": 110,
+        "y": 540,
         "wires": [
             [
                 "8ddbabb2da4a49f3"
@@ -5157,7 +5158,7 @@
         "overwriteFile": "true",
         "encoding": "none",
         "x": 1270,
-        "y": 600,
+        "y": 300,
         "wires": [
             []
         ]
@@ -5174,8 +5175,8 @@
         "sendError": false,
         "encoding": "none",
         "allProps": false,
-        "x": 910,
-        "y": 1060,
+        "x": 590,
+        "y": 540,
         "wires": [
             [
                 "558358375463284d",
@@ -5221,8 +5222,8 @@
         "outputs": 1,
         "useDifferentColor": false,
         "className": "",
-        "x": 1470,
-        "y": 1080,
+        "x": 1150,
+        "y": 560,
         "wires": [
             []
         ]
@@ -5239,8 +5240,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1220,
-        "y": 1080,
+        "x": 900,
+        "y": 560,
         "wires": [
             [
                 "e380d714513f1e8e",
@@ -5267,8 +5268,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 660,
-        "y": 1060,
+        "x": 340,
+        "y": 540,
         "wires": [
             [
                 "2f944cddcf8dcfaf"
@@ -5288,8 +5289,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1480,
-        "y": 1340,
+        "x": 1180,
+        "y": 660,
         "wires": []
     },
     {
@@ -5305,8 +5306,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1140,
-        "y": 1340,
+        "x": 840,
+        "y": 660,
         "wires": []
     },
     {
@@ -5379,8 +5380,8 @@
         "topic": "topic",
         "topicType": "msg",
         "className": "",
-        "x": 420,
-        "y": 1380,
+        "x": 120,
+        "y": 700,
         "wires": [
             [
                 "8851b7845677ea8c"
@@ -5399,8 +5400,8 @@
         "sendError": false,
         "encoding": "none",
         "allProps": false,
-        "x": 910,
-        "y": 1380,
+        "x": 610,
+        "y": 700,
         "wires": [
             [
                 "035fa91579ad6d94",
@@ -5446,8 +5447,8 @@
         "outputs": 1,
         "useDifferentColor": false,
         "className": "",
-        "x": 1470,
-        "y": 1400,
+        "x": 1170,
+        "y": 720,
         "wires": [
             []
         ]
@@ -5464,8 +5465,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1220,
-        "y": 1400,
+        "x": 920,
+        "y": 720,
         "wires": [
             [
                 "06367ebdbfb0dca6",
@@ -5492,8 +5493,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 660,
-        "y": 1380,
+        "x": 360,
+        "y": 700,
         "wires": [
             [
                 "40c05a033027d612"

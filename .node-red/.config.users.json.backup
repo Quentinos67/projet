@@ -21,7 +21,7 @@
                 }
             }
         },
-        "menu-menu-item-sidebar": false,
+        "menu-menu-item-sidebar": true,
         "menu-deploymenu-item-flow": false,
         "menu-deploymenu-item-full": true
     }

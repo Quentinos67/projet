@@ -2682,7 +2682,7 @@
         "type": "function",
         "z": "a3eb30eb28df6688",
         "name": "Set Buffer 10",
-        "func": "var msgmqtt = global.get('msgmqtt') || {};\nif ((msgmqtt[0] != 48) && (msgmqtt[0] != 49)) // exists \n{\n    var i;\n    msgmqtt = Buffer.alloc(13);\n    for (i = 0; i < 13; i++) {\n        msgmqtt[i] = 48;\n    }\n\n    global.set(\"msgmqtt\", msgmqtt);\n\n}\nmsgmqtt[10] = msg.payload+48;\n \n\nglobal.set(\"msgmqtt\", msgmqtt);\n\n\nreturn msg; ",
+        "func": "var msgmqtt = global.get('msgmqtt') || {};\nif ((msgmqtt[0] != 48) && (msgmqtt[0] != 49)) // exists \n{\n    var i;\n    msgmqtt = Buffer.alloc(13);\n    for (i = 0; i < 13; i++) {\n        msgmqtt[i] = 48;\n    }\n\n    global.set(\"msgmqtt\", msgmqtt);\n\n}\nmsgmqtt[10] = msg.payload;\n \n\nglobal.set(\"msgmqtt\", msgmqtt);\n\n\nreturn msg; ",
         "outputs": 1,
         "timeout": "",
         "noerr": 0,
